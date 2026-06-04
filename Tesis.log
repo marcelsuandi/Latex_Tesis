@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  4 JUN 2026 12:06
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  4 JUN 2026 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2572,240 +2572,254 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 Bab III.
+File: images/Struktur_Organisasi_Kemhan.png Graphic file (type bmp)
+<images/Struktur_Organisasi_Kemhan.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/Struktur_Organisasi_Pusdatin.png Graphic file (type bmp)
+<images/Struktur_Organisasi_Pusdatin.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []|\TU/TimesNewRoman(0)/m/n/12 Bidang Banglola
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []|\TU/TimesNewRoman(0)/m/n/12 Kelompok Jabatan
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 58--59
+Underfull \hbox (badness 1515) in paragraph at lines 56--57
 []|\TU/TimesNewRoman(0)/m/n/12 Pelaksanaan tugas fungsional, antara lain Pranat
 a
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 58--59
+Underfull \hbox (badness 1087) in paragraph at lines 56--57
 \TU/TimesNewRoman(0)/m/n/12 Komputer dan Sandiman, sesuai keahlian masing-
  []
 
 
 ignored: Infinite glue shrinkage found in box being split [32] [33]
-Underfull \vbox (badness 1320) has occurred while \output is active []
+File: images/Usulan_DTO_Pusdatin.png Graphic file (type bmp)
+<images/Usulan_DTO_Pusdatin.png>
 
- [34]
-Underfull \hbox (badness 1394) in paragraph at lines 112--113
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34]
+Underfull \hbox (badness 1394) in paragraph at lines 109--110
 []|\TU/TimesNewRoman(0)/m/n/12 Kemhan wajib menyusun Arsitektur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []|\TU/TimesNewRoman(0)/m/n/12 RPJPN Tahun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []|\TU/TimesNewRoman(0)/m/n/12 Perencanaan
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 118--118
+Underfull \hbox (badness 3503) in paragraph at lines 115--115
 \TU/TimesNewRoman(0)/m/n/12 Jangka Panjang
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\TU/TimesNewRoman(0)/m/n/12 Pengelolaan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/TimesNewRoman(0)/m/n/12 Sumber Daya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/TimesNewRoman(0)/m/n/12 Nasional untuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/TimesNewRoman(0)/m/n/12 Pertahanan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 []|\TU/TimesNewRoman(0)/m/n/12 Mengelola data strategis nasional,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 \TU/TimesNewRoman(0)/m/n/12 membangun sistem \TU/TimesNewRoman(0)/m/it/12 cyber
  defence\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 136--137
+Underfull \hbox (badness 1097) in paragraph at lines 133--134
 \TU/TimesNewRoman(0)/m/n/12 dan menyusun kebijakan pertahanan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\TU/TimesNewRoman(0)/m/n/12 Pertahanan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\TU/TimesNewRoman(0)/m/n/12 Renstra Kemhan
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 140--140
+Underfull \hbox (badness 4595) in paragraph at lines 137--137
 []|\TU/TimesNewRoman(0)/m/n/12 Rencana Strate-
  []
 
-[35] [36]
-Underfull \vbox (badness 1412) has occurred while \output is active []
-
- [37]
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []|\TU/TimesNewRoman(0)/m/it/12 Multi-Domain Opera-
  []
 
 
 ignored: Infinite glue shrinkage found in box being split [38] [39]
-Underfull \hbox (badness 6691) in paragraph at lines 229--229
+Underfull \hbox (badness 6691) in paragraph at lines 226--226
 []|\TU/TimesNewRoman(0)/b/n/12 Kelemahan TOGAF ADM
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 229--230
+Underfull \hbox (badness 5316) in paragraph at lines 226--227
 []|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan Konteks Perta-
  []
 
 
-Overfull \hbox (9.14719pt too wide) in alignment at lines 225--231
+Overfull \hbox (9.14719pt too wide) in alignment at lines 222--228
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 233--233
+Underfull \hbox (badness 6691) in paragraph at lines 230--230
 []|\TU/TimesNewRoman(0)/b/n/12 Kelemahan TOGAF ADM
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 233--234
+Underfull \hbox (badness 5316) in paragraph at lines 230--231
 []|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan Konteks Perta-
  []
 
 
-Overfull \hbox (9.14719pt too wide) in alignment at lines 231--235
+Overfull \hbox (9.14719pt too wide) in alignment at lines 228--232
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\TU/TimesNewRoman(0)/m/n/12 Domain arsi-
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 236--237
+Underfull \hbox (badness 6348) in paragraph at lines 233--234
 []|\TU/TimesNewRoman(0)/m/n/12 Memerlukan domain C5ISR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 []|\TU/TimesNewRoman(0)/m/n/12 Keamanan
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 238--239
+Underfull \hbox (badness 3690) in paragraph at lines 235--236
 \TU/TimesNewRoman(0)/m/n/12 bagai prinsip utama (\TU/TimesNewRoman(0)/m/it/12 s
 ecuri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 []|\TU/TimesNewRoman(0)/m/n/12 Lingkup orga-
  []
 
 
-Underfull \hbox (badness 7468) in paragraph at lines 240--240
+Underfull \hbox (badness 7468) in paragraph at lines 237--237
 []|\TU/TimesNewRoman(0)/m/n/12 Mengasumsikan satu entitas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 \TU/TimesNewRoman(0)/m/it/12 enterprise \TU/TimesNewRoman(0)/m/n/12 tunggal den
 gan
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 240--241
+Underfull \hbox (badness 3701) in paragraph at lines 237--238
 \TU/TimesNewRoman(0)/m/n/12 dan industri pertahanan) de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
 []|\TU/TimesNewRoman(0)/m/n/12 Keterkaitan
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 242--243
+Underfull \hbox (badness 4872) in paragraph at lines 239--240
 \TU/TimesNewRoman(0)/m/n/12 pertahanan nasional, konsep
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 242--243
+Underfull \hbox (badness 6893) in paragraph at lines 239--240
 \TU/TimesNewRoman(0)/m/it/12 smart defence\TU/TimesNewRoman(0)/m/n/12 , dan ope
 rasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \TU/TimesNewRoman(0)/m/n/12 multi-domain (\TU/TimesNewRoman(0)/m/it/12 multi-do
 main
  []
 
 
-Overfull \hbox (9.14719pt too wide) in alignment at lines 235--244
+Overfull \hbox (9.14719pt too wide) in alignment at lines 232--241
  [] [] [] 
  []
 
-[40]
-Overfull \hbox (11.97878pt too wide) in paragraph at lines 267--269
+
+ignored: Infinite glue shrinkage found in box being split [40]
+File: images/Perbandingan_TOGAF.png Graphic file (type bmp)
+<images/Perbandingan_TOGAF.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41]
+Overfull \hbox (11.97878pt too wide) in paragraph at lines 263--265
 \TU/TimesNewRoman(0)/m/n/12 nempatan \TU/TimesNewRoman(0)/m/it/12 C5ISR Archite
 cture \TU/TimesNewRoman(0)/m/n/12 setelah \TU/TimesNewRoman(0)/m/it/12 Technolo
 gy Architecture \TU/TimesNewRoman(0)/m/n/12 karena arsitektur C5ISR
  []
 
 
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
- [41]
-Underfull \hbox (badness 7649) in paragraph at lines 292--292
+Underfull \hbox (badness 7649) in paragraph at lines 288--288
 []|\TU/TimesNewRoman(0)/m/it/12 Data as Strategic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
 []|\TU/TimesNewRoman(0)/m/it/12 Integrated Com-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 304--304
+Underfull \hbox (badness 1902) in paragraph at lines 300--300
 []|\TU/TimesNewRoman(0)/m/it/12 User-Centric Servi-
  []
 
-
-ignored: Infinite glue shrinkage found in box being split [42] [43] [44] [45] [46] [47] 
-[48]) (Bab VI - Evaluasi.tex [49] [50
+[42] [43] [44] [45] [46] [47] [48]) (Bab VI - Evaluasi.tex [49] [50
 
 ]
 Bab IV.
@@ -2882,10 +2896,10 @@ Package logreq Info: Writing requests to 'Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34573 strings out of 402983
- 671423 string characters out of 5448483
- 2085697 words of memory out of 5000000
- 62901 multiletter control sequences out of 15000+600000
+ 34609 strings out of 402983
+ 672802 string characters out of 5448483
+ 2085698 words of memory out of 5000000
+ 62933 multiletter control sequences out of 15000+600000
  632926 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,9n,95p,1819b,6874s stack positions out of 10000i,1000n,20000p,200000b,200000s
