@@ -118,8 +118,16 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
-      \field{title}{{Architecture Design Space Generation via Decision}}
+      \field{journaltitle}{Systems}
+      \field{number}{9}
+      \field{title}{{Architecture Design Space Generation via Decision Pattern-Guided Department of Defense Architecture Framework Modeling}}
+      \field{volume}{12}
       \field{year}{2024}
+      \field{pages}{336}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/systems12090336
+      \endverb
       \verb{file}
       \verb :C\:/Users/marce/Downloads/Architecture Design Space Generation via Decision Pattern-Guided Department of Defense Architecture Framework Modeling.pdf:pdf
       \endverb
@@ -215,6 +223,9 @@
            family={{Kemhan RI}},
            familyi={K\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {Kementerian Pertahanan Republik Indonesia}%
+      }
       \strng{namehash}{1743950e8abacf7d710c10648a7cedb3}
       \strng{fullhash}{1743950e8abacf7d710c10648a7cedb3}
       \strng{fullhashraw}{1743950e8abacf7d710c10648a7cedb3}
@@ -229,7 +240,8 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
-      \field{title}{{Kementerian Pertahanan RI PEDOMAN PERTAHANAN SIBER i}}
+      \field{note}{Peraturan Menteri Pertahanan Nomor 82 Tahun 2014}
+      \field{title}{{Pedoman Pertahanan Siber}}
       \field{year}{2014}
       \verb{file}
       \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/Permenhan-No.-82-Tahun-2014-tentang-Pertahanan-Siber.pdf:pdf;::
@@ -691,6 +703,9 @@
            family={{US DoD}},
            familyi={U\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {U.S. Department of Defense}%
+      }
       \strng{namehash}{29ea58a082e33677854f505d5c871ba9}
       \strng{fullhash}{29ea58a082e33677854f505d5c871ba9}
       \strng{fullhashraw}{29ea58a082e33677854f505d5c871ba9}
@@ -706,7 +721,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
       \field{number}{March}
-      \field{title}{{SUMMARY OF Tl-IE}}
+      \field{title}{{Summary of the Joint All-Domain Command and Control (JADC2) Strategy}}
       \field{year}{2022}
       \verb{file}
       \verb :D\:/Marcel/Kuliah S2 Smart X ITB/Tesis/Smart Defense/Transformasi Digital Kemhan/SUMMARY-OF-THE-JOINT-ALL-DOMAIN-COMMAND-AND-CONTROL-STRATEGY (JADC2).pdf:pdf;::

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  4 JUN 2026 14:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  4 JUN 2026 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1410,10 +1410,17 @@ Overfull \hbox (6.58832pt too wide) detected at line 145
 
 ) (12 Daftar Singkatan.tex [9] [10
 
-]) (13 Daftar Simbol.tex [11] [12
+]
+Overfull \hbox (32.96596pt too wide) in alignment at lines 15--91
+ [] [] [] 
+ []
 
-]) [13]
-[14
+
+ignored: Infinite glue shrinkage found in box being split [11]
+ignored: Infinite glue shrinkage fo
+und in box being split [12]) (13 Daftar Simbol.tex [13] [14
+
+]) [15] [16
 
 ] (Bab I - Pendahuluan.tex
 Bab I.
@@ -2861,9 +2868,9 @@ ktronik”. \TU/TimesNewRoman(0)/m/it/12 Menteri Hukum
  []
 
 
-Overfull \hbox (5.92725pt too wide) in paragraph at lines 418--418
-[][]\TU/TimesNewRoman(0)/m/n/12 Kemhan RI. 2014. “  Kementerian Pertahanan RI P
-EDOMAN PERTAHANAN SIBER
+Overfull \hbox (10.34836pt too wide) in paragraph at lines 418--418
+[][]\TU/TimesNewRoman(0)/m/n/12 Kemhan RI. 2014. “  Pedoman Pertahanan Siber”. 
+Peraturan Menteri Pertahanan Nomor
  []
 
 
@@ -2875,7 +2882,9 @@ ada June 3,
 
 [57
 
-] [58]
+] [58] [59] [60
+
+]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 305.
 See the caption package documentation for explanation.
@@ -2896,12 +2905,12 @@ Package logreq Info: Writing requests to 'Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34609 strings out of 402983
- 672802 string characters out of 5448483
- 2085698 words of memory out of 5000000
- 62933 multiletter control sequences out of 15000+600000
+ 34617 strings out of 402983
+ 672996 string characters out of 5448483
+ 2086698 words of memory out of 5000000
+ 62941 multiletter control sequences out of 15000+600000
  632926 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,9n,95p,1819b,6874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Tesis.pdf (72 pages).
+Output written on Tesis.pdf (76 pages).

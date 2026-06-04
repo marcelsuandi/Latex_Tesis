@@ -7,7 +7,7 @@
 \contentsline {chapter}{DAFTAR GAMBAR}{vii}{section*.4}%
 \contentsline {chapter}{DAFTAR TABEL}{ix}{section*.5}%
 \contentsline {chapter}{DAFTAR SINGKATAN}{xi}{section*.5}%
-\contentsline {chapter}{DAFTAR SIMBOL}{xiii}{table.0.1}%
+\contentsline {chapter}{DAFTAR SIMBOL}{xv}{table.0.1}%
 \setlength {\cftbeforechapskip }{10pt}
 \renewcommand {\cftchapfont }{\bfseries }
 \renewcommand {\cftchappagefont }{\bfseries }
