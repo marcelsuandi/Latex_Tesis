@@ -1,13 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  23 APR 2026 23:26
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  4 JUN 2026 12:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Marcel/Kuliah S2 Smart X ITB/3. Semester 3/IF5091 Tesis 1/Thesis Desain A
-rsitektur Transformasi Digital Kemhan/Tesis.tex"
+**"d:/Marcel/Kuliah S2 Smart X ITB/3. Semester 3/IF5091 Tesis 1/Latex Thesis De
+sain Arsitektur Transformasi Digital Kemhan/Tesis.tex"
 
-(d:/Marcel/Kuliah S2 Smart X ITB/3. Semester 3/IF5091 Tesis 1/Thesis Desain Ars
-itektur Transformasi Digital Kemhan/Tesis.tex
+(d:/Marcel/Kuliah S2 Smart X ITB/3. Semester 3/IF5091 Tesis 1/Latex Thesis Desa
+in Arsitektur Transformasi Digital Kemhan/Tesis.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
@@ -1054,37 +1054,37 @@ Package csquotes Info: Adjusting default style.
 
 
 Package csquotes Warning: No style for language 'indonesian'.
-(csquotes)                Using fallback style on input line 335.
+(csquotes)                Using fallback style on input line 342.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (Tesis.aux
 (C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
 -english.tex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 70.
+(babel)             from babel-en.ini. Reported on input line 51.
 )
 \openout1 = `Tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 335.
-LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 342.
+LaTeX Font Info:    ... okay on input line 342.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1092,64 +1092,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 335.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 335.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 335.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 335.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 335.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 335.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 335.
-LaTeX Font Info:    Redeclaring math accent \check on input line 335.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 335.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 335.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 335.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 335.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 335.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 342.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 342.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 342.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 342.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 342.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 342.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 342.
+LaTeX Font Info:    Redeclaring math accent \check on input line 342.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 342.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 342.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 342.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 342.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 342.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 335.
+(Font)              `operators' in the math version `normal' on input line 342.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 3
-35.
+42.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 335.
+(Font)              `operators' in the math version `bold' on input line 342.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-335.
+342.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 335.
+input line 342.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 335.
+ 342.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-335.
+342.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 335.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 342.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 335.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 342.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 335.
+input line 342.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 335.
+e 342.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 335.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 342.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 335.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 342.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
@@ -1209,15 +1209,15 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 335.
-Package microtype Info: Applying patch `item' on input line 335.
-Package microtype Info: Applying patch `toc' on input line 335.
-Package microtype Info: Applying patch `eqnum' on input line 335.
+LaTeX Info: Redefining \microtypecontext on input line 342.
+Package microtype Info: Applying patch `item' on input line 342.
+Package microtype Info: Applying patch `toc' on input line 342.
+Package microtype Info: Applying patch `eqnum' on input line 342.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 335.
+Package microtype Warning: Unable to apply patch `footnote' on input line 342.
 
-Package microtype Info: Applying patch `verbatim' on input line 335.
-LaTeX Info: Redefining \microtypesetup on input line 335.
+Package microtype Info: Applying patch `verbatim' on input line 342.
+LaTeX Info: Redefining \microtypesetup on input line 342.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1227,7 +1227,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `TimesNewRoman' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 335.
+Package hyperref Info: Link coloring ON on input line 342.
 (Tesis.out) (Tesis.out)
 \@outlinefile=\write4
 \openout4 = `Tesis.out'.
@@ -1237,7 +1237,7 @@ Package biblatex Info: ... file 'indonesian.lbx' not found.
 
 
 Package biblatex Warning: Language 'indonesian' not supported.
-(biblatex)                Using dummy definitions on input line 335.
+(biblatex)                Using dummy definitions on input line 342.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1255,8 +1255,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Tesis.bbl' found.
  (Tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 335.
-Package biblatex Info: Reference segment=0 on input line 335.
+Package biblatex Info: Reference section=0 on input line 342.
+Package biblatex Info: Reference segment=0 on input line 342.
  (1 Halaman Judul.tex
 File: images/ganesha.jpg Graphic file (type bmp)
 <images/ganesha.jpg>
@@ -1336,14 +1336,67 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Underfull \vbox (badness 1701) has occurred while \output is active []
+[5]
+Overfull \hbox (0.58832pt too wide) detected at line 136
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.1 
+ []
 
- [5])
+
+Overfull \hbox (0.58832pt too wide) detected at line 137
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.2 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 138
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.3 
+ []
+
+
+Overfull \hbox (2.23248pt too wide) in paragraph at lines 138--138
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/12 Fase Business Architecture (Organisasi 
+Architectu- 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 139
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.4 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 140
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.5 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 141
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.6 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 142
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.7 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 143
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.8 
+ []
+
+
+Overfull \hbox (0.58832pt too wide) detected at line 144
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.9 
+ []
+
+
+Overfull \hbox (6.58832pt too wide) detected at line 145
+\TU/TimesNewRoman(0)/m/n/12 III.2.4.10 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `Tesis.toc'.
 
-)
-(7 Daftar Gambar.tex [6] (Tesis.lof)
+) (7 Daftar Gambar.tex [6] (Tesis.lof)
 \tf@lof=\write6
 \openout6 = `Tesis.lof'.
 
@@ -1355,8 +1408,7 @@ Underfull \vbox (badness 1701) has occurred while \output is active []
 \tf@lot=\write7
 \openout7 = `Tesis.lot'.
 
-)
-(12 Daftar Singkatan.tex [9] [10
+) (12 Daftar Singkatan.tex [9] [10
 
 ]) (13 Daftar Simbol.tex [11] [12
 
@@ -1368,11 +1420,387 @@ Bab I.
 [1
 
 
-] [2] [3] [4]
-Underfull \vbox (badness 1527) has occurred while \output is active []
+] [2] [3] [4] [5]
+Underfull \vbox (badness 1817) has occurred while \output is active []
 
- [5])
-(Bab II - Studi.tex [6]
+ [6]
+Overfull \hbox (17.46999pt too wide) in alignment at lines 168--174
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (17.46999pt too wide) in alignment at lines 174--179
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\TU/TimesNewRoman(0)/m/it/12 Preliminary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[]|\TU/TimesNewRoman(0)/m/n/12 Menentukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\TU/TimesNewRoman(0)/m/n/12 ruang lingkup,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\TU/TimesNewRoman(0)/m/n/12 dan kesiapan
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 181--182
+\TU/TimesNewRoman(0)/m/n/12 organisasi dalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\TU/TimesNewRoman(0)/m/n/12 pengembang-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\TU/TimesNewRoman(0)/m/n/12 an arsitektur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\TU/TimesNewRoman(0)/m/n/12 transformasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+[]|\TU/TimesNewRoman(0)/m/n/12 Identifikasi ruang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\TU/TimesNewRoman(0)/m/n/12 digital pertahanan;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\TU/TimesNewRoman(0)/m/n/12 identifikasi keterka-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+[]|\TU/TimesNewRoman(0)/m/n/12 Dokumen hasil
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/TimesNewRoman(0)/m/n/12 identifikasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/TimesNewRoman(0)/m/n/12 ruang lingkup
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\TU/TimesNewRoman(0)/m/n/12 dan regulasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\TU/TimesNewRoman(0)/m/it/12 Architecture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+[]|\TU/TimesNewRoman(0)/m/n/12 Merumuskan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+\TU/TimesNewRoman(0)/m/n/12 visi, misi, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+\TU/TimesNewRoman(0)/m/n/12 tujuan strategis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+\TU/TimesNewRoman(0)/m/n/12 arsitektur untuk
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 185--186
+\TU/TimesNewRoman(0)/m/n/12 mendukung tran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+\TU/TimesNewRoman(0)/m/n/12 sformasi digital
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 186--187
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyusun visi dan
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 186--187
+\TU/TimesNewRoman(0)/m/n/12 identifikasi kebutuh-
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 186--187
+\TU/TimesNewRoman(0)/m/n/12 an strategis organi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]|\TU/TimesNewRoman(0)/m/it/12 Business
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+[]|\TU/TimesNewRoman(0)/m/n/12 Merancang mo-
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 189--190
+\TU/TimesNewRoman(0)/m/n/12 pertahanan yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+\TU/TimesNewRoman(0)/m/n/12 efektif untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+\TU/TimesNewRoman(0)/m/n/12 mendukung ko-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+\TU/TimesNewRoman(0)/m/n/12 mando, kendali,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+\TU/TimesNewRoman(0)/m/n/12 integrasi data,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+\TU/TimesNewRoman(0)/m/n/12 serta kolaborasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]|\TU/TimesNewRoman(0)/m/n/12 Pemodelan proses
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/12 bisnis inti dan pen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/12 dukung; analisis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/12 kesenjangan proses
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 as-is \TU/TimesNewRom
+an(0)/m/n/12 vs. \TU/TimesNewRoman(0)/m/it/12 to-be\TU/TimesNewRoman(0)/m/n/12 
+);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/12 identifikasi domain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/n/12 hanan; penyusunan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/it/12 business process
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+\TU/TimesNewRoman(0)/m/it/12 model \TU/TimesNewRoman(0)/m/n/12 ekosistem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\TU/TimesNewRoman(0)/m/it/12 Information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+\TU/TimesNewRoman(0)/m/it/12 Systems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+[]|\TU/TimesNewRoman(0)/m/n/12 Menentukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\TU/TimesNewRoman(0)/m/n/12 kebutuhan arsi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\TU/TimesNewRoman(0)/m/n/12 tektur data dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\TU/TimesNewRoman(0)/m/n/12 aplikasi yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\TU/TimesNewRoman(0)/m/n/12 mendukung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\TU/TimesNewRoman(0)/m/n/12 proses bisnis
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 194--195
+\TU/TimesNewRoman(0)/m/n/12 sain aplikasi pendu-
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 194--195
+\TU/TimesNewRoman(0)/m/n/12 kung operasi perta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+\TU/TimesNewRoman(0)/m/n/12 data dan apli-
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 195--196
+\TU/TimesNewRoman(0)/m/n/12 kasi pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 Data Model,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+\TU/TimesNewRoman(0)/m/it/12 Application
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]|\TU/TimesNewRoman(0)/m/it/12 Technology
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+[]|\TU/TimesNewRoman(0)/m/n/12 Menyusun arsi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/12 tektur teknologi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/12 yang mencakup
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/12 infrastruktur,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/12 platform, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/12 keamanan siber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/12 sebagai fondasi
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/12 ekosistem digital
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 198--199
+\TU/TimesNewRoman(0)/m/n/12 teknologi target (ja-
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 198--199
+\TU/TimesNewRoman(0)/m/n/12 nologi dan protokol
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 199--200
+\TU/TimesNewRoman(0)/m/n/12 logi pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 technology
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+\TU/TimesNewRoman(0)/m/it/12 architecture
+ []
+
+
+Overfull \hbox (17.46999pt too wide) in alignment at lines 179--201
+ [] [] [] [] [] 
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [7] [8] [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Overfull \hbox (7.54031pt too wide) in paragraph at lines 276--277
+\TU/TimesNewRoman(0)/m/n/12 Metode wawancara semi-terstruktur memungkinkan peng
+galian informasi yang
+ []
+
+[11]) (Bab II - Studi.tex [12]
 Bab II.
 
 Overfull \hbox (20.16045pt too wide) in alignment at lines 6--11
@@ -2060,11 +2488,11 @@ Overfull \hbox (20.16045pt too wide) in alignment at lines 16--48
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [7
+ignored: Infinite glue shrinkage found in box being split [13
 
 
 ]
-ignored: Infinite glue shrinkage found in box being split [8]
+ignored: Infinite glue shrinkage found in box being split [14]
 File: images/DT_Verkuli.png Graphic file (type bmp)
 <images/DT_Verkuli.png>
 
@@ -2077,7 +2505,7 @@ Overfull \hbox (1.66449pt too wide) in paragraph at lines 71--73
 isasi, kultur, teknologi, pelangg-
  []
 
-[9]
+[15]
 File: images/DT_Canvas.png Graphic file (type bmp)
 <images/DT_Canvas.png>
 File: images/DT_Nasional.png Graphic file (type bmp)
@@ -2086,7 +2514,7 @@ File: images/DT_Nasional.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11]
+[16] [17]
 File: images/DoD_Digital_Modernization_Strategy.png Graphic file (type bmp)
 <images/DoD_Digital_Modernization_Strategy.png>
 
@@ -2099,14 +2527,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [12]
+ [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [19]
 File: images/Singapore_Total_Defence.png Graphic file (type bmp)
 <images/Singapore_Total_Defence.png>
 
-[14]
+[20]
 Overfull \hbox (0.76758pt too wide) in paragraph at lines 184--186
 \TU/TimesNewRoman(0)/m/n/12 rian Komunikasi dan Informatika [][]2018[][][][]), 
 dan ([][][]Republik Indonesia [][]2023[][][][]) meng-
@@ -2115,11 +2543,11 @@ dan ([][][]Republik Indonesia [][]2023[][][][]) meng-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
-[16]
+ [21]
+[22]
 File: images/Arsitektur_NCW.png Graphic file (type bmp)
 <images/Arsitektur_NCW.png>
- [17] [18]
+ [23] [24]
 File: images/Arsitektur_JADC2.png Graphic file (type bmp)
 <images/Arsitektur_JADC2.png>
 
@@ -2129,53 +2557,311 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 1859) has occurred while \output is active []
 
- [19]
+ [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21]
+ [26]
+[27]
 File: images/TOGAF_Framework.png Graphic file (type bmp)
 <images/TOGAF_Framework.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Bab III - Analisis dan Desain.tex [22] [23] [24
+) (Bab III - Analisis dan Desain.tex [28] [29] [30
 
 ]
 Bab III.
-[25
+[31
 
 ]
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
- [26]
-[27]
-Underfull \vbox (badness 3058) has occurred while \output is active []
-
- [28]
-[29]
-Overfull \hbox (7.54031pt too wide) in paragraph at lines 150--151
-\TU/TimesNewRoman(0)/m/n/12 Metode wawancara semi-terstruktur memungkinkan peng
-galian informasi yang
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\TU/TimesNewRoman(0)/m/n/12 Bidang Banglola
  []
 
-) [30]
-Overfull \hbox (2.03366pt too wide) in paragraph at lines 411--411
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\TU/TimesNewRoman(0)/m/n/12 Kelompok Jabatan
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 58--59
+[]|\TU/TimesNewRoman(0)/m/n/12 Pelaksanaan tugas fungsional, antara lain Pranat
+a
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 58--59
+\TU/TimesNewRoman(0)/m/n/12 Komputer dan Sandiman, sesuai keahlian masing-
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [32] [33]
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
+ [34]
+Underfull \hbox (badness 1394) in paragraph at lines 112--113
+[]|\TU/TimesNewRoman(0)/m/n/12 Kemhan wajib menyusun Arsitektur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\TU/TimesNewRoman(0)/m/n/12 RPJPN Tahun
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\TU/TimesNewRoman(0)/m/n/12 Perencanaan
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 118--118
+\TU/TimesNewRoman(0)/m/n/12 Jangka Panjang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\TU/TimesNewRoman(0)/m/n/12 Pengelolaan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\TU/TimesNewRoman(0)/m/n/12 Sumber Daya
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\TU/TimesNewRoman(0)/m/n/12 Nasional untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\TU/TimesNewRoman(0)/m/n/12 Pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengelola data strategis nasional,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+\TU/TimesNewRoman(0)/m/n/12 membangun sistem \TU/TimesNewRoman(0)/m/it/12 cyber
+ defence\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 136--137
+\TU/TimesNewRoman(0)/m/n/12 dan menyusun kebijakan pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\TU/TimesNewRoman(0)/m/n/12 Pertahanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\TU/TimesNewRoman(0)/m/n/12 Renstra Kemhan
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 140--140
+[]|\TU/TimesNewRoman(0)/m/n/12 Rencana Strate-
+ []
+
+[35] [36]
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [37]
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\TU/TimesNewRoman(0)/m/it/12 Multi-Domain Opera-
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [38] [39]
+Underfull \hbox (badness 6691) in paragraph at lines 229--229
+[]|\TU/TimesNewRoman(0)/b/n/12 Kelemahan TOGAF ADM
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 229--230
+[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan Konteks Perta-
+ []
+
+
+Overfull \hbox (9.14719pt too wide) in alignment at lines 225--231
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 233--233
+[]|\TU/TimesNewRoman(0)/b/n/12 Kelemahan TOGAF ADM
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 233--234
+[]|\TU/TimesNewRoman(0)/b/n/12 Kebutuhan Konteks Perta-
+ []
+
+
+Overfull \hbox (9.14719pt too wide) in alignment at lines 231--235
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+[]|\TU/TimesNewRoman(0)/m/n/12 Domain arsi-
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 236--237
+[]|\TU/TimesNewRoman(0)/m/n/12 Memerlukan domain C5ISR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+[]|\TU/TimesNewRoman(0)/m/n/12 Keamanan
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 238--239
+\TU/TimesNewRoman(0)/m/n/12 bagai prinsip utama (\TU/TimesNewRoman(0)/m/it/12 s
+ecuri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+[]|\TU/TimesNewRoman(0)/m/n/12 Lingkup orga-
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 240--240
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengasumsikan satu entitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+\TU/TimesNewRoman(0)/m/it/12 enterprise \TU/TimesNewRoman(0)/m/n/12 tunggal den
+gan
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 240--241
+\TU/TimesNewRoman(0)/m/n/12 dan industri pertahanan) de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[]|\TU/TimesNewRoman(0)/m/n/12 Keterkaitan
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 242--243
+\TU/TimesNewRoman(0)/m/n/12 pertahanan nasional, konsep
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 242--243
+\TU/TimesNewRoman(0)/m/it/12 smart defence\TU/TimesNewRoman(0)/m/n/12 , dan ope
+rasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+\TU/TimesNewRoman(0)/m/n/12 multi-domain (\TU/TimesNewRoman(0)/m/it/12 multi-do
+main
+ []
+
+
+Overfull \hbox (9.14719pt too wide) in alignment at lines 235--244
+ [] [] [] 
+ []
+
+[40]
+Overfull \hbox (11.97878pt too wide) in paragraph at lines 267--269
+\TU/TimesNewRoman(0)/m/n/12 nempatan \TU/TimesNewRoman(0)/m/it/12 C5ISR Archite
+cture \TU/TimesNewRoman(0)/m/n/12 setelah \TU/TimesNewRoman(0)/m/it/12 Technolo
+gy Architecture \TU/TimesNewRoman(0)/m/n/12 karena arsitektur C5ISR
+ []
+
+
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [41]
+Underfull \hbox (badness 7649) in paragraph at lines 292--292
+[]|\TU/TimesNewRoman(0)/m/it/12 Data as Strategic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+[]|\TU/TimesNewRoman(0)/m/it/12 Integrated Com-
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 304--304
+[]|\TU/TimesNewRoman(0)/m/it/12 User-Centric Servi-
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [42] [43] [44] [45] [46] [47] 
+[48]) (Bab VI - Evaluasi.tex [49] [50
+
+]
+Bab IV.
+[51
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\TU/TimesNewRoman(0)/m/it/12 Technology Readi-
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 58--59
+[]|\TU/TimesNewRoman(0)/m/n/12 Kemampuan beradaptasi terhadap perubahan
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 60--60
+[]|\TU/TimesNewRoman(0)/m/it/12 Smart Defense Alig-
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [52] [53]
+Underfull \hbox (badness 1789) in paragraph at lines 156--156
+[]|\TU/TimesNewRoman(0)/m/n/12 Kelayakan pembentukan DTO (\TU/TimesNewRoman(0)/
+m/it/12 Digital
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\TU/TimesNewRoman(0)/m/n/12 Aspek Data dan
+ []
+
+[54]) [55] [56
+
+]
+Overfull \hbox (2.03366pt too wide) in paragraph at lines 418--418
 \TU/TimesNewRoman(0)/m/n/12 Tahun 2018 tentang Sistem Pemerintahan Berbasis Ele
 ktronik”. \TU/TimesNewRoman(0)/m/it/12 Menteri Hukum
  []
 
 
-Overfull \hbox (5.92725pt too wide) in paragraph at lines 411--411
+Overfull \hbox (5.92725pt too wide) in paragraph at lines 418--418
 [][]\TU/TimesNewRoman(0)/m/n/12 Kemhan RI. 2014. “  Kementerian Pertahanan RI P
 EDOMAN PERTAHANAN SIBER
  []
 
-[31
 
+Overfull \hbox (3.13254pt too wide) in paragraph at lines 418--418
+[][]\TU/TimesNewRoman(0)/m/n/12 NATO. 2012. \TU/TimesNewRoman(0)/m/it/12 Chicag
+o Summit Declaration. \TU/TimesNewRoman(0)/m/n/12 NATO Official text. Diakses p
+ada June 3,
+ []
 
-] [32]
+[57
+
+] [58]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 305.
 See the caption package documentation for explanation.
@@ -2190,18 +2876,18 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: B050234366BD97A8055E722CAF5C56CF;8231.
+(rerunfilecheck)             Checksum: F4DF9DE1DAA676BAC21095DBA888C3F4;14569.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34498 strings out of 402983
- 669927 string characters out of 5448483
- 2077257 words of memory out of 5000000
- 62830 multiletter control sequences out of 15000+600000
- 632918 words of font info for 83 fonts, out of 8000000 for 9000
+ 34573 strings out of 402983
+ 671423 string characters out of 5448483
+ 2085697 words of memory out of 5000000
+ 62901 multiletter control sequences out of 15000+600000
+ 632926 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,9n,95p,1813b,6874s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,9n,95p,1819b,6874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Tesis.pdf (46 pages).
+Output written on Tesis.pdf (72 pages).

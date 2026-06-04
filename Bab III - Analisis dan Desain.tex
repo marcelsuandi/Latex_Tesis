@@ -1,173 +1,555 @@
-
 \cleardoublepage
-\chapter{Metodologi Penelitian}
-\label{chap:metodologi}
+\chapter{ANALISIS DAN DESAIN}
+\label{chap:analisis-desain}
 
-\section{Pendekatan Penelitian}
-Pendekatan penelitian yang digunakan dalam studi ini adalah Design Science Research Methodology (DSRM).
-DSRM merupakan pendekatan penelitian yang berorientasi pada problem-solving melalui pengembangan artefak yang dapat memberikan solusi terhadap permasalahan nyata dalam suatu organisasi.
-Pendekatan ini sangat relevan digunakan dalam penelitian yang bertujuan merancang model, kerangka kerja, atau arsitektur yang bersifat implementatif.
+\section{Analisis Kondisi Eksisting}
+Analisis kondisi eksisting diperlukan untuk memperoleh pemahaman menyeluruh mengenai kondisi organisasi dan tata kelola, regulasi dan kebijakan, serta tantangan yang dihadapi dalam melakukan transformasi digital.
+Analisis kondisi eksisting merupakan landasan penting dalam mengidentifikasi kesenjangan (\textit{gap}) antara kondisi saat ini (\textit{as-is}) dengan kondisi yang diharapkan (\textit{to-be}).
 
-Menurut \textcite{Hevner2004}, Design Science bertujuan menghasilkan artefak yang efektif dan dapat diuji, seperti model, metode, ataupun arsitektur.
-Pendekatan ini berupaya menggabungkan proses ilmiah dengan kebutuhan praktis organisasi, sehingga artefak yang dihasilkan tidak hanya memiliki nilai teoritis, tetapi juga memberikan manfaat aplikatif.
-Dalam konteks penelitian ini, artefak yang dikembangkan berupa arsitektur transformasi Digital Kemhan RI yang disusun secara terstruktur dengan kerangka TOGAF ADM.
+Analisis kondisi eksisting dilakukan secara menyeluruh, mencakup dimensi organisasi dan tata kelola, kerangka regulasi dan kebijakan, permasalahan transformasi digital, serta kebutuhan pertahanan cerdas (\textit{smart defence}) yang menjadi arah strategis modernisasi pertahanan nasional.
 
-DSRM terdiri dari enam tahapan utama, yaitu: (1) identifikasi masalah dan motivasi, (2) penetapan tujuan solusi, (3) perancangan dan pengembangan artefak, (4) demonstrasi terhadap konteks atau skenario penggunaan, (5) evaluasi artefak, dan (6) komunikasi hasil penelitian. Keenam tahap ini memberikan alur kerja sistematis yang memandu peneliti sejak perumusan masalah hingga penyebaran hasil.
+\subsection{Analisis Organisasi dan Tata Kelola}
+Analisis organisasi dan tata kelola bertujuan untuk memahami struktur kelembagaan Kementerian Pertahanan RI serta mekanisme tata kelola yang menjadi konteks pelaksanaan transformasi digital.
+Struktur organisasi Kemhan diatur dalam Peraturan Menteri Pertahanan Nomor 14 Tahun 2019 tentang Organisasi dan Tata Kerja Kementerian Pertahanan, sebagaimana ditunjukkan pada Gambar \ref{fig:struktur-kemhan}.
 
-Pendekatan DSRM dipilih karena beberapa alasan utama:
+\begin{figure}[h]
+\caption{Struktur Organisasi Kemhan RI}
+\label{fig:struktur-kemhan}
+% TODO: ganti placeholder dengan gambar asli, mis. \includegraphics[width=0.9\textwidth]{images/Struktur_Organisasi_Kemhan.png}
+\gambarplaceholder{Struktur Organisasi Kemhan RI}
+\end{figure}
+
+Berdasarkan struktur tersebut, Kementerian Pertahanan dipimpin oleh Menteri Pertahanan (Menhan) dan dibantu oleh Wakil Menteri Pertahanan (Wamenhan), dengan unsur pengawasan (Irjen) dan kesekretariatan (Sekjen).
+Di bawahnya terdapat sejumlah satuan kerja, meliputi Pusat Keuangan (Kapusku), Direktorat Jenderal Potensi Pertahanan (Dirjen Pothan), Direktorat Jenderal Perencanaan Pertahanan (Dirjen Renhan), Direktorat Jenderal Kekuatan Pertahanan (Dirjen Kuathan), serta berbagai badan dan pusat seperti Badan Pendidikan dan Pelatihan (Badiklat), Pusat Data dan Informasi (Pusdatin), Pusat Kelaikan, Badan Penelitian dan Pengembangan (Balitbang), Badan Sarana Pertahanan (Baranahan), dan Badan Instalasi Strategis Pertahanan (Bainstrahan).
+
+\begin{figure}[h]
+\caption{Struktur Organisasi Pusdatin Kemhan}
+\label{fig:struktur-pusdatin}
+% TODO: ganti placeholder dengan gambar asli, mis. \includegraphics[width=0.9\textwidth]{images/Struktur_Organisasi_Pusdatin.png}
+\gambarplaceholder{Struktur Organisasi Pusdatin Kemhan}
+\end{figure}
+
+Sebagai unit yang memegang peran sentral dalam pengelolaan data dan teknologi informasi pertahanan, struktur organisasi Pusat Data dan Informasi (Pusdatin) perlu dipetakan secara rinci.
+Berdasarkan Peraturan Menteri Pertahanan Nomor 14 Tahun 2019, Pusdatin berada di bawah dan bertanggung jawab kepada Menteri melalui Sekretaris Jenderal, serta dipimpin oleh Kepala Pusat Data dan Informasi (Kapusdatin).
+Pusdatin bertugas melaksanakan pengembangan dan pengelolaan sistem informasi pertahanan, infrastruktur teknologi informasi dan komunikasi, serta pengamanan sistem informasi dan persandian di lingkungan Kemhan.
+Struktur organisasi Pusdatin ditunjukkan pada Gambar \ref{fig:struktur-pusdatin}.
+Berdasarkan Gambar \ref{fig:struktur-pusdatin}, Pusdatin terdiri atas satu Bagian Tata Usaha, tiga Bidang teknis, dan satu Kelompok Jabatan Fungsional.
+Ketiga bidang teknis tersebut, beserta tugas pokoknya, dirangkum pada Tabel \ref{tab:unit-pusdatin}.
+
+\begin{longtable}{|p{4cm}|p{9cm}|}
+\caption{Unit Kerja Pusdatin dan Tugas Pokoknya}
+\label{tab:unit-pusdatin} \\
+\hline
+\textbf{Unit Kerja} & \textbf{Tugas Pokok} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Unit Kerja} & \textbf{Tugas Pokok} \\
+\hline
+\endhead
+Bagian Tata Usaha (Bag TU) & Penyiapan perencanaan program dan anggaran, evaluasi dan pelaporan, kepegawaian, ketatausahaan, kerumahtanggaan, serta administrasi jabatan fungsional Pusat. \\
+\hline
+Bidang Banglola Sisfohan & Pengembangan dan pengelolaan aplikasi, pengolahan basis data, manajemen \textit{bandwidth}, dan manajemen sistem informasi di lingkungan Kemhan. \\
+\hline
+Bidang Infra TIK & Perencanaan dan pengembangan, operasional dan layanan, serta pemeliharaan infrastruktur teknologi informasi dan komunikasi di lingkungan Kemhan. \\
+\hline
+Bidang Pamsisinfosan & Pengelolaan pengamanan sistem informasi, pengembangan sistem persandian, serta operasional dan pengamanan persandian. \\
+\hline
+Kelompok Jabatan Fungsional & Pelaksanaan tugas fungsional, antara lain Pranata Komputer dan Sandiman, sesuai keahlian masing-masing. \\
+\hline
+\end{longtable}
+
+Hasil pemetaan menunjukkan bahwa seluruh bidang teknis pada Pusdatin berorientasi pada fungsi menjalankan dan memelihara teknologi informasi.
+Bidang Banglola Sisfohan berfokus pada pembangunan dan pengelolaan aplikasi serta data operasional, Bidang Infra TIK pada penyediaan dan pemeliharaan infrastruktur, dan Bidang Pamsisinfosan pada pengamanan sistem dan persandian.
+Dengan kata lain, struktur Pusdatin saat ini mencerminkan organisasi pengelola TI konvensional, bukan organisasi yang mengemban fungsi transformasi digital.
+
+Dari struktur tersebut teridentifikasi bahwa belum terdapat unit kerja yang secara khusus mengemban fungsi transformasi digital. Fungsi-fungsi penting lainnya yang belum memiliki unit penanggung jawab, antara lain:
 \begin{enumerate}
-  \item Penelitian ini berfokus pada pengembangan arsitektur transfomasi digital pada Kementerian Pertahanan yang merupakan artefak desain.
-  DSRM menyediakan kerangka yang tepat untuk merancang artefak dengan mempertimbangkan kebutuhan organisasi dan teori yang mendukung.
-  \item Transformasi digital Kemhan RI membutuhkan pendekatan yang tidak hanya teoritis, tetapi juga aplikatif.
-  DSRM memastikan bahwa artefak yang dihasilkan dapat diterapkan pada konteks nyata organisasi pertahanan.
-  \item Melalui tahapan evaluasi, artefak yang dikembangkan dapat dinilai kesesuaiannya oleh para pakar, unit terkait, dan pemangku kepentingan di Kemhan RI.
-  Dengan demikian, model yang dihasilkan memiliki validitas yang kuat untuk digunakan dalam desain arsitektur transformasi digital Kementerian Pertahanan.
+  \item Perumusan strategi dan peta jalan transformasi digital pertahanan.
+  \item Tata kelola arsitektur \textit{enterprise} (\textit{enterprise architecture}) dan standardisasi sistem lintas unit serta lintas matra.
+  \item Manajemen perubahan serta pembangunan budaya dan kompetensi digital sumber daya manusia.
+  \item Koordinasi transformasi digital lintas satuan kerja dan lintas matra.
+  \item Tata kelola data sebagai aset strategis, melampaui pengumpulan dan pengelolaan data yang bersifat operasional.
+  \item Penelaahan dan adopsi teknologi baru (\textit{emerging technology}) seperti kecerdasan buatan dan komputasi awan.
 \end{enumerate}
 
-Dengan demikian, penggunaan DSRM sebagai pendekatan penelitian memberikan landasan metodologis yang kuat dan sesuai untuk menghasilkan
-arsitektur transformasi digital Kementerian Pertahanan yang sistematis dan komprehensif.
+Untuk melakukan transformasi digital, fungsi-fungsi tersebut di atas umumnya diemban oleh seorang \textit{Digital Transformation Officer} (DTO) atau unit setara.
+DTO merupakan peran atau unit yang bertanggung jawab mengorkestrasi transformasi digital organisasi secara menyeluruh yang mencakup kepemilikan strategi, arsitektur, dan manajemen perubahan serta menjembatani kebutuhan bisnis dan teknologi.
+Peran ini berbeda secara mendasar dari fungsi operasional TI pada sistem eksisting atau saat ini.
+Ketiadaan fungsi DTO menyebabkan transformasi digital berisiko berjalan parsial dan bersifat teknis semata, tanpa arah strategis dan tata kelola arsitektur yang terpadu.
 
-\section{Tahapan Penelitian Menggunakan DSRM}
-Penelitian ini menggunakan Design Science Research Methodology (DSRM) yang terdiri dari enam tahapan utama. 
-Setiap tahapan dalam DSRM memberikan struktur penelitian yang sistematis dan berorientasi pada pengembangan artefak yang dapat menyelesaikan permasalahan nyata, dalam hal ini arsitektur transformasi Digital Kemhan RI.
-Adapun tahapan penelitian tersebut dijelaskan sebagai berikut:
-
-\subsection{Tahap 1 – Problem Identification and Motivation}
-Tahap pertama bertujuan untuk mengidentifikasi permasalahan inti yang menghambat transformasi digital di lingkungan Kemhan RI serta menentukan urgensi penelitian.
-Berdasarkan analisis dokumen dan kebijakan, permasalahan utama yang ditemukan adalah sebagai berikut:
+Untuk menutup kesenjangan tersebut, diusulkan pembentukan fungsi DTO sebagaimana diilustrasikan pada Gambar \ref{fig:usulan-dto}. Usulan ini mempertimbangkan dua waktu, yaitu:
 \begin{enumerate}
-  \item Fragmentasi sistem dan data pertahanan.
-  Sistem informasi di Kemhan dan angkatan berjalan sendiri-sendiri, menyebabkan rendahnya interoperabilitas dan integrasi data.
-  \item Belum adanya blueprint arsitektur digital Kemhan.
-  Kemhan belum memiliki arsitektur SPBE dan arsitektur pertahanan yang terstruktur untuk mendukung modernisasi digital.
-  \item Ancaman siber yang meningkat.
-  Menurut \textcite{KemhanRI2014} menunjukkan bahwa ancaman siber menjadi tantangan strategis yang belum diimbangi dengan kesiapan sistem dan SDM dalam pertahanan siber.
-  \item Keterbatasan SDM digital dan tata kelola TI.
-  Kompetensi digital belum merata, dan belum ada mekanisme tata kelola arsitektur yang menyeluruh.
-  \item Tuntutan regulasi nasional.
-  Berdasarkan \textcite{KementerianKomunikasidanInformatika2018}, \textcite{RepublikIndonesia2023}, \textcite{RI2019}, dan \textcite{RPJPN2025} mewajibkan Kemhan membangun ekosistem digital pertahanan yang terintegrasi.
+  \item Jangka pendek --- menambahkan \textbf{Bidang Transformasi Digital (DTO)} di dalam Pusdatin, yang membawahi Subbidang Strategi dan Arsitektur Digital (EA), Subbidang Tata Kelola Data, serta Subbidang Manajemen Perubahan dan Inovasi Digital.
+  \item Jangka menengah--panjang --- karena transformasi digital bersifat lintas satuan kerja dan lintas matra, fungsi DTO idealnya diberi mandat dan otoritas yang melampaui kedudukan Pusdatin saat ini, misalnya melalui komite pengarah transformasi digital tingkat kementerian atau pelekatan fungsi pada tingkat Sekretariat Jenderal, agar mampu menstandarkan dan mengoordinasikan arsitektur secara lintas organisasi.
 \end{enumerate}
 
+\begin{figure}[h]
+\caption{Usulan Penambahan Unit \textit{Digital Transformation Officer} (DTO) pada Pusdatin}
+\label{fig:usulan-dto}
+% TODO: ganti placeholder dengan gambar asli, mis. \includegraphics[width=0.9\textwidth]{images/Usulan_DTO_Pusdatin.png}
+\gambarplaceholder{Usulan Penambahan Unit DTO pada Pusdatin}
+\end{figure}
 
-\subsection{Tahap 2 – Define the Objectives for a Solution}
-Ada tahap ini ditetapkan tujuan solusi yang ingin dicapai oleh artefak arsitektur.
-Tujuan tersebut disusun berdasarkan permasalahan yang telah diidentifikasi, kebutuhan organisasi, serta mandat regulasi. Adapun tujuan solusi adalah:
+Pembentukan unit DTO ini sekaligus secara khusus mengemban fungsi strategi, arsitektur, tata kelola data, dan manajemen perubahan agar transformasi digital Kemhan RI dapat berjalan secara terarah, terintegrasi, dan berkelanjutan, tidak lagi terbatas pada pengelolaan teknologi yang bersifat operasional dan terfragmentasi.
+
+\subsection{Analisis Regulasi dan Kebijakan}
+Analisis regulasi dan kebijakan bertujuan untuk mengidentifikasi landasan hukum yang menjadi dasar sekaligus pendorong dari pelaksanaan transformasi digital Kemhan RI.
+Kerangka regulasi tersebut dapat dikelompokkan menjadi dua, yaitu kerangka regulasi nasional yang berlaku lintas sektoral dan kerangka regulasi sektor pertahanan yang bersifat khusus.
+Ringkasan regulasi yang relevan disajikan pada Tabel \ref{tab:regulasi-nasional} dan Tabel \ref{tab:regulasi-pertahanan}.
+
+\begin{longtable}{|p{3.2cm}|p{2.8cm}|p{6.5cm}|}
+\caption{Kerangka Regulasi Nasional}
+\label{tab:regulasi-nasional} \\
+\hline
+\textbf{Regulasi} & \textbf{Tentang} & \textbf{Isi} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Regulasi} & \textbf{Tentang} & \textbf{Isi} \\
+\hline
+\endhead
+Perpres No. 95 Tahun 2018 & SPBE & Kemhan wajib menyusun Arsitektur SPBE, Peta Rencana SPBE, dan layanan digital pertahanan yang terintegrasi. \\
+\hline
+Perpres No. 39 Tahun 2019 & Satu Data Indonesia & Data pertahanan (SDM, alutsista, industri pertahanan, logistik) harus terintegrasi dan dapat dibagipakaikan. \\
+\hline
+Perpres No. 82 Tahun 2023 & Percepatan Transformasi Digital & Memperkuat keamanan siber, meningkatkan tata kelola birokrasi, dan mendukung implementasi Satu Data Indonesia. \\
+\hline
+RPJPN Tahun 2025--2045 & Perencanaan Jangka Panjang Nasional & Transformasi digital Kemhan menjadi syarat terbentuknya keamanan nasional modern berbasis teknologi. \\
+\hline
+\end{longtable}
+
+Pada tataran nasional, Peraturan Presiden Nomor 95 Tahun 2018 tentang SPBE mewajibkan Kemhan menyusun Arsitektur SPBE beserta peta rencananya, sementara Peraturan Presiden Nomor 39 Tahun 2019 tentang Satu Data Indonesia menuntut integrasi dan keterpaduan data pertahanan.
+Urgensi ini diperkuat oleh Peraturan Presiden Nomor 82 Tahun 2023 tentang Percepatan Transformasi Digital serta arah pembangunan jangka panjang dalam RPJPN Tahun 2025--2045 yang menempatkan transformasi digital sebagai syarat terbentuknya keamanan nasional modern.
+
+\begin{longtable}{|p{3.2cm}|p{2.8cm}|p{6.5cm}|}
+\caption{Kerangka Regulasi Pertahanan Indonesia}
+\label{tab:regulasi-pertahanan} \\
+\hline
+\textbf{Regulasi} & \textbf{Tentang} & \textbf{Isi} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Regulasi} & \textbf{Tentang} & \textbf{Isi} \\
+\hline
+\endhead
+UU No. 23 Tahun 2019 & Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara & Mengelola data strategis nasional, membangun sistem \textit{cyber defence}, dan menyusun kebijakan pertahanan berbasis data. \\
+\hline
+Permenhan No. 82 Tahun 2014 & Pertahanan Siber & Penguatan pertahanan siber di tengah ancaman yang meningkat dengan cara penguatan infrastruktur dan SDM siber. \\
+\hline
+Renstra Kemhan Tahun 2020--2024 & Rencana Strategis Pertahanan & Memperkuat \textit{cyber defence}, modernisasi alutsista, pengembangan SDM digital, dan kemandirian industri pertahanan. \\
+\hline
+\end{longtable}
+
+Pada tataran sektor pertahanan, Undang-Undang Nomor 23 Tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara mengamanatkan pengelolaan data strategis dan pembangunan sistem \textit{cyber defence}, sedangkan Peraturan Menteri Pertahanan Nomor 82 Tahun 2014 tentang Pertahanan Siber menggarisbawahi perlunya penguatan kapabilitas siber.
+Sejalan dengan itu, Renstra Kemhan Tahun 2020--2024 menetapkan penguatan \textit{cyber defence}, modernisasi alutsista, pengembangan SDM digital, dan kemandirian industri pertahanan sebagai prioritas strategis.
+
+Hasil analisis menunjukkan bahwa secara normatif kerangka regulasi yang mengamanatkan transformasi digital Kemhan telah cukup memadai. Namun demikian, terdapat kesenjangan implementasi yaitu belum adanya arsitektur transformasi digital yang dilakukan oleh Kemhan.
+
+\subsection{Analisis Permasalahan Transformasi Digital}
+Analisis permasalahan transformasi digital bertujuan untuk mengidentifikasi akar permasalahan yang menghambat pelaksanaan transformasi digital di Kemhan RI.
+Berdasarkan Rencana Strategis Kemhan Tahun 2020--2024, terdapat tiga permasalahan inti sebagai berikut:
 \begin{enumerate}
-  \item Menghasilkan arsitektur bisnis, data, aplikasi, dan teknologi yang terintegrasi berdasarkan kerangka TOGAF.
-  \item Menyediakan blueprint yang dapat digunakan sebagai pedoman transformasi digital Kemhan RI.
-  \item Memperkuat tata kelola data pertahanan dan meningkatkan interoperabilitas antar unit organisasi dan matra.
-  \item Membangun fondasi penguatan keamanan siber Kemhan.
-  \item Mendukung penyusunan roadmap implementasi transformasi digital Kemhan RI 2026–2030.
+  \item Kebijakan anggaran dalam pembangunan pertahanan negara masih terkendala oleh berbagai pertimbangan politik anggaran, sehingga alokasi sumber daya untuk transformasi digital belum optimal.
+  \item Penyelenggaraan pemenuhan alutsista belum optimal akibat ketergantungan terhadap industri pertahanan luar negeri, karena industri pertahanan dalam negeri belum mampu sepenuhnya memenuhi kebutuhan alutsista.
+  \item Belum optimalnya teknologi siber yang mampu melakukan fungsi ofensif dan defensif, pemantauan, jaminan keamanan pangkalan, serta penanggulangan penyusupan dan intelijen siber, yang disebabkan oleh keterbatasan pengembangan organisasi/kelembagaan, SDM, dan infrastruktur teknologi informasi.
 \end{enumerate}
 
-Tujuan-tujuan ini menjadi dasar dalam pengembangan artefak dan memastikan bahwa solusi yang dihasilkan relevan dengan kondisi aktual dan kebutuhan jangka panjang organisasi.
-
-\subsection{Tahap 3 – Design and Development}
-Tabel 3.1 Perancangan Arsitektur Transformasi Digital Kemhan RI
-
-\subsection{Tahap 4 – Demonstration}
-Pada tahap ini, artefak yang telah dikembangkan diuji melalui proses demonstrasi untuk menunjukkan bagaimana artefak tersebut menyelesaikan permasalahan yang telah diidentifikasi. Demonstrasi dilakukan melalui:
+Selain ketiga permasalahan strategis di atas, hasil analisis terhadap kondisi eksisting ekosistem digital Kemhan mengidentifikasi sejumlah permasalahan pada tataran operasional dan teknis, yaitu:
 \begin{enumerate}
-  \item Diskusi kelompok terarah (FGD) dengan pakar dan pejabat Kemhan untuk melihat sejauh mana arsitektur yang dirancang dapat diimplementasikan secara praktis.
+  \item \textbf{Fragmentasi sistem.} Sistem informasi dan aplikasi dikembangkan secara terpisah oleh masing-masing unit kerja dan angkatan tanpa standar arsitektur yang seragam, sehingga menimbulkan redundansi dan menyulitkan integrasi.
+  \item \textbf{Data silo.} Data pertahanan dikelola secara terisolasi pada setiap unit, sehingga pertukaran data lintas domain secara \textit{real-time} sulit dilakukan dan menghambat pengambilan keputusan strategis.
+  \item \textbf{Lemahnya interoperabilitas.} Ketiadaan standar integrasi menyebabkan sistem antar-unit dan antar-matra tidak dapat saling berkomunikasi secara efektif.
+  \item \textbf{Keterbatasan infrastruktur dan keamanan siber.} Infrastruktur TI masih bersifat konvensional, sementara pengelolaan keamanan siber masih reaktif dan belum berbasis prinsip \textit{security by design}.
+  \item \textbf{Kesenjangan SDM digital.} Kompetensi digital personel belum merata dan belum didukung program pengembangan SDM digital pertahanan yang terstruktur.
 \end{enumerate}
 
-Demonstrasi bertujuan memastikan bahwa artefak dapat berfungsi secara logis dalam konteks operasional Kemhan RI dan memberikan gambaran implementasi awal sebelum dilakukan evaluasi mendalam.
+Berdasarkan analisis tersebut, dapat disimpulkan bahwa akar permasalahan transformasi digital Kemhan tidak hanya bersifat teknis, melainkan juga struktural dan tata kelola.
+Ketiadaan kerangka arsitektur transformasi digital yang terpadu menjadi penyebab utama berlanjutnya fragmentasi sistem dan data, sehingga perancangan arsitektur menjadi kebutuhan mendesak untuk mengatasi permasalahan secara menyeluruh dan berkelanjutan.
 
-\subsection{Tahap 5 – Evaluation}
-Tahapan ini bertujuan untuk menilai efektivitas artefak arsitektur transformasi Digital Kemhan RI dalam menjawab permasalahan dan mencapai tujuan penelitian. Evaluasi dilakukan dengan dua pendekatan utama:
-\begin{enumerate}
-  \item Evaluasi Teoritis
-  \begin{enumerate}
-    \item Menilai kelayakan teknis dan konseptual dari arsitektur transformasi digital yang dirancang,
-    termasuk konsistensi dengan prinsip-prinsip arsitektur enterprise (EA) dan keselarasan dengan kerangka kerja TOGAF ADM.
-    \item Menilai kesesuaian artefak dengan standar dan kebijakan nasional, seperti arsitektur SPBE Nasional dan regulasi transformasi digital pemerintahan.
-    \item Memastikan validitas ilmiah melalui peninjauan oleh pakar akademik dalam bidang sistem informasi, enterprise architecture, dan transformasi digital.
-  \end{enumerate}
-  \item Evaluasi Praktis
-  \begin{enumerate}
-    \item Melibatkan pakar dan praktisi dari lingkungan pertahanan, seperti STEI ITB, Ditjen Potensi Pertahanan, Pusdatin Kemhan dan Bainstrahan Kemhan yang relevan untuk memberikan penilaian aplikatif terhadap artefak.
-    \item Penilaian dilakukan pada aspek-aspek implementatif, termasuk:
-    \begin{enumerate}
-      \item Efisiensi Proses
-      \item Interoperabilitas sistem pendukung
-      \item Keamanan dan kesiapan pengelolaan data
-      \item Kelayakan adopsi dalam struktur organisasi Kemhan
-    \end{enumerate}
-    \item Mengidentifikasi area perbaikan agar arsitektur dapat disesuaikan dengan kondisi operasional Kemhan RI dan kebutuhan transformasi pertahanan.
-  \end{enumerate}
-\end{enumerate}
-Hasil evaluasi memberikan dasar untuk melakukan revisi dan penyempurnaan pada model agar sesuai dengan kebutuhan organisasi dan dinamika lingkungan pertahanan.
+\subsection{Analisis Kebutuhan \textit{Smart Defense}}
+Analisis kebutuhan \textit{smart defense} bertujuan untuk merumuskan kebutuhan strategis yang menjadi arah dan acuan dalam perancangan arsitektur transformasi digital target (\textit{to-be}).
+Konsep pertahanan cerdas (\textit{smart defense}) merupakan modernisasi pertahanan yang memanfaatkan teknologi digital secara terintegrasi untuk meningkatkan efektivitas, kecepatan, dan ketepatan dalam pengambilan keputusan serta penyelenggaraan operasi pertahanan di seluruh domain.
 
-\subsection{Tahap 6 – Communication}
-Tahap terakhir adalah komunikasi hasil penelitian. Pada tahap ini, artefak dan temuan penelitian disajikan dalam bentuk laporan ilmiah, presentasi kepada pemangku kepentingan, serta publikasi akademik apabila relevan.
-Komunikasi bertujuan memastikan bahwa hasil penelitian dapat dipahami, digunakan, dan diadopsi oleh pihak yang berkepentingan.
+Pergeseran menuju \textit{smart defense} menempatkan teknologi informasi bukan sekadar sebagai alat pendukung, melainkan sebagai sistem senjata (\textit{weapon system}) yang menentukan keunggulan pertahanan.
+Konsep \textit{smart defense} menuntut kemampuan menghubungkan sensor, pengambil keputusan, dan unsur penindak dalam satu jaringan informasi melalui pendekatan \textit{Network Centric Warfare} (NCW), serta kemampuan menyelenggarakan operasi lintas domain secara sinergis (\textit{multi-domain operation}).
+Berdasarkan kajian terhadap konsep \textit{Smart Defence} NATO \autocite{NATO2012}, doktrin \textit{Network Centric Warfare} \autocite{scribd_network_centric_warfare}, \textit{Joint All-Domain Command and Control} (JADC2) \autocite{USDoD2022}, dan \textit{Multi-Domain Operations} (MDO) \autocite{USArmyMDO2018}, kebutuhan utama pertahanan cerdas meliputi interoperabilitas sistem, integrasi data, kemampuan C5ISR, keamanan siber, pengambilan keputusan berbasis data, serta integrasi operasi lintas domain.
+Kebutuhan utama \textit{smart defense} diidentifikasi pada Tabel \ref{tab:kebutuhan-smartdefense}.
 
-Dalam konteks penelitian ini, komunikasi melibatkan penyampaian model arsitektur transformasi digital Kemhan RI, dan roadmap implementasi kepada Kemhan RI sebagai pengguna utama.
-Dengan demikian, artefak tidak hanya menjadi kontribusi teoretis, tetapi juga memberikan manfaat praktis bagi organisasi.
+\begin{longtable}{|p{4cm}|p{9cm}|}
+\caption{Analisis Kebutuhan \textit{Smart Defense}}
+\label{tab:kebutuhan-smartdefense} \\
+\hline
+\textbf{Kebutuhan \textit{Smart Defence}} & \textbf{Deskripsi} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Kebutuhan \textit{Smart Defence}} & \textbf{Deskripsi} \\
+\hline
+\endhead
+\textit{Interoperabilitas} & Seluruh sistem Kemhan dan ketiga angkatan (TNI AD, AL, AU) harus dapat saling terintegrasi dan bertukar data secara \textit{real-time}. \\
+\hline
+\textit{Integrated Command \& Control} & Mendukung sistem komando dan pengendalian terintegrasi berbasis C5ISR (\textit{Command, Control, Communication, Computer, Cyber, Intelligence, Surveillance, and Reconnaissance}). \\
+\hline
+\textit{Network Centric Warfare} & Menghubungkan sensor, pengambil keputusan, dan unsur penindak dalam satu jaringan informasi untuk mempercepat siklus pengambilan keputusan. \\
+\hline
+\textit{Multi-Domain Operation} & Mengintegrasikan operasi lintas domain darat, laut, udara, siber, dan ruang angkasa secara sinergis. \\
+\hline
+\textit{Data as Strategic Asset} & Memperlakukan data pertahanan sebagai aset strategis nasional yang mendukung pengambilan keputusan berbasis data. \\
+\hline
+\textit{Security by Design} & Menjadikan keamanan siber sebagai bagian utama arsitektur sejak tahap perencanaan, bukan sebagai tambahan. \\
+\hline
+\textit{Scalability \& Flexibility} & Arsitektur harus mampu berkembang mengikuti dinamika ancaman dan kemajuan teknologi di masa depan. \\
+\hline
+\end{longtable}
 
-\section{Jenis dan Sumber Data}
-Penelitian ini menggunakan dua jenis data utama, yaitu data primer dan data sekunder, yang dikumpulkan untuk mendukung proses analisis pada setiap tahapan DSRM.
-Penggunaan kedua jenis data ini diperlukan agar perancangan arsitektur transformasi digital Kemhan RI memiliki landasan konseptual yang kuat sekaligus relevansi praktis terhadap kondisi aktual di Kementerian Pertahanan RI.
-\begin{enumerate}
-  \item Data Primer.
-  Data primer merupakan data yang diperoleh langsung dari sumber pertama melalui interaksi dengan pemangku kepentingan.
-  Data ini diperlukan untuk memahami secara mendalam kondisi aktual sistem informasi, proses bisnis, kebutuhan organisasi, serta tantangan transformasi digital di lingkungan Kemhan. Data primer meliputi:
-  \begin{enumerate}
-    \item Hasil wawancara dengan pejabat atau staf Kemhan yang memahami sistem informasi, teknologi pertahanan, atau kebijakan SPBE.
-    \item Validasi pakar (expert judgement) melalui akademisi atau ahli di bidang enterprise architecture dan transformasi digital pertahanan.
-  \end{enumerate}
-  Data primer ini sangat penting untuk mengidentifikasi kesenjangan (gap) antara kondisi eksisting dan kebutuhan arsitektur target.
-  \item Data Sekunder.
-  Data sekunder diperoleh dari dokumen dan sumber referensi yang relevan, antara lain:
-  \begin{enumerate}
-    \item Peraturan Presiden No 95 Tahun 2018 tentang SPBE.
-    \item Peraturan Presiden No 39 Tahun 2019 tentang Satu Data Indonesia.
-    \item Peraturan Presiden No 82 Tahun 2023 tentang Percepatan Transformasi Digital.
-    \item Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045.
-    \item Peraturan Menteri Pertahanan No 42 Tahun 2014 tentang Pertahanan Siber.
-    \item Undang Undang No 23 Tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara.
-    \item Rencana Strategis Kementerian Pertahanan Tahun 2020-2024.
-    \item Jurnal ilmiah, buku, dan publikasi akademik yang membahas transformasi digital, enterprise architecture, kompetensi digital, serta pengembangan SDM di sektor pertahanan.
-    \item Referensi internasional, termasuk DoD Digital Modernization Strategy dan penelitian global mengenai digital defense capability, untuk membandingkan praktik terbaik dalam transformasi digital pertahanan.
-  \end{enumerate}
-  Data sekunder digunakan sebagai landasan teoretis untuk menyusun kerangka konseptual, mendukung analisis gap kompetensi, serta memastikan bahwa arsitektur yang dihasilkan selaras dengan perkembangan global dan kebijakan nasional.
-\end{enumerate}
+Kebutuhan-kebutuhan tersebut selanjutnya menjadi dasar dalam perumusan prinsip-prinsip arsitektur (\textit{architecture principles}) transformasi digital Kemhan.
+Inti dari kebutuhan \textit{smart defence} adalah terwujudnya ekosistem pertahanan digital yang terintegrasi, aman, dan adaptif, di mana seluruh komponen pertahanan terhubung dalam satu kerangka komando dan pengendalian berbasis C5ISR.
 
-\section{Metode Pengumpulan Data}
-Metode pengumpulan data dilakukan melalui beberapa tahapan:
-\begin{enumerate}
-  \item Studi Literatur.
-  Mengkaji teori dasar EA, TOGAF, Smart Defense, dan Transformasi Digital.
-  \item Analisis Dokumen Internal.
-  Analisis dokumen dilakukan terhadap data dan kebijakan yang dikeluarkan oleh Kemhan RI.
-  \item Wawancara Terarah.
-  Wawancara dilakukan dengan pejabat atau personel dari unit-unit Kemhan yang relevan, seperti Ditjen Potensi Pertahanan, Pusdatin Kemhan dan Bainstrahan Kemhan. Wawancara ini bertujuan untuk:
-  \begin{enumerate}
-    \item Menggali informasi mengenai tantangan implementasi transformasi digital.
-    \item Mendapatkan perspektif mengenai arah transformasi digital Kemhan RI.
-    \item Memvalidasi temuan awal dari analisis dokumen.
-  \end{enumerate}
-  Metode wawancara semi-terstruktur memungkinkan penggalian informasi yang fleksibel namun tetap terfokus pada isu penelitian.
-  \item Focus Group Discussion (FGD).
-  FGD digunakan pada tahap evaluasi artefak, sebagai bagian dari pendekatan evaluasi praktis pada DSRM. FGD dilakukan dengan melibatkan:
-  \begin{enumerate}
-    \item Akademisi
-    \item Ditjen Pothan
-    \item Pusdatin Kemhan
-    \item Bainstrahan Kemhan
-  \end{enumerate}
-  FGD bertujuan menilai kelayakan arsitektur transformasi digital dari aspek teknis, organisasi, keamanan, dan kesiapan implementasi.
-\end{enumerate}
+Berdasarkan keseluruhan analisis kondisi eksisting, baik dari aspek organisasi dan tata kelola, regulasi dan kebijakan, permasalahan transformasi digital, maupun kebutuhan \textit{smart defense}, dapat disimpulkan bahwa Kemhan RI memerlukan sebuah arsitektur transformasi digital yang mampu mengintegrasikan teknologi, proses, data, dan SDM pertahanan secara terpadu.
+Hasil analisis ini menjadi landasan bagi perancangan arsitektur transformasi digital yang akan dibahas pada sub-bab berikutnya.
 
+\section{Perancangan TOGAF Pertahanan Indonesia}
+Perancangan arsitektur transformasi digital Kemhan RI dalam penelitian ini menggunakan kerangka kerja \textit{The Open Group Architecture Framework} (TOGAF), khususnya metode \textit{Architecture Development Method} (ADM) sebagai metodologi pengembangan arsitektur.
+TOGAF dipilih karena menyediakan metodologi yang terstruktur, iteratif, dan teruji untuk menyelaraskan kebutuhan strategis organisasi dengan solusi teknologi secara menyeluruh.
+Namun demikian, TOGAF ADM merupakan kerangka kerja generik/umum yang dirancang untuk \textit{enterprise} bisnis dan pemerintahan umum, sehingga perlu dilakukan penyesuaian (kustomisasi) agar sesuai dengan karakteristik dan kebutuhan sektor pertahanan.
+Hasil penyesuaian tersebut selanjutnya disebut sebagai TOGAF Pertahanan Indonesia.
 
+\subsection{Kelemahan TOGAF ADM dalam Konteks Pertahanan}
+TOGAF ADM dalam bentuk standar memiliki sejumlah keunggulan, yaitu pendekatan yang sistematis, bersifat iteratif, serta mencakup empat domain arsitektur inti yang saling berkaitan: arsitektur bisnis, data, aplikasi, dan teknologi.
+Meskipun demikian, ketika diterapkan pada konteks pertahanan, kerangka standar ini menunjukkan beberapa keterbatasan mendasar.
+Hal ini disebabkan TOGAF pada dasarnya berorientasi pada keselarasan bisnis dan teknologi informasi (\textit{business--IT alignment}), sementara sektor pertahanan memiliki dimensi operasional dan keamanan yang tidak sepenuhnya terwakili dalam domain standar.
 
+Berdasarkan analisis terhadap karakteristik domain pertahanan, teridentifikasi beberapa kelemahan utama TOGAF ADM standar dalam konteks pertahanan, sebagaimana dirangkum pada Tabel \ref{tab:kelemahan-togaf}.
 
+\begin{longtable}{|p{2.6cm}|p{5.2cm}|p{5.2cm}|}
+\caption{Kelemahan TOGAF ADM Standar dalam Konteks Pertahanan}
+\label{tab:kelemahan-togaf} \\
+\hline
+\textbf{Aspek} & \textbf{Kelemahan TOGAF ADM Standar} & \textbf{Kebutuhan Konteks Pertahanan} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Aspek} & \textbf{Kelemahan TOGAF ADM Standar} & \textbf{Kebutuhan Konteks Pertahanan} \\
+\hline
+\endhead
+Domain arsitektur & Hanya mencakup empat domain inti (bisnis, data, aplikasi, dan teknologi) yang berorientasi pada \textit{enterprise} bisnis dan pemerintahan umum. & Memerlukan domain C5ISR sebagai inti operasional pertahanan (komando, kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian) yang tidak terwakili dalam domain standar. \\
+\hline
+Keamanan siber & Diperlakukan sebagai \textit{concern} pendukung yang tersebar lintas fase tanpa penekanan khusus. & Keamanan harus diangkat sebagai prinsip utama (\textit{security by design}) mengingat tingginya ancaman siber terhadap aset dan data pertahanan. \\
+\hline
+Lingkup organisasi & Mengasumsikan satu entitas \textit{enterprise} tunggal dengan struktur tata kelola yang relatif sederhana. & Melibatkan banyak entitas (Kemhan, TNI AD/AL/AU, BSSN, dan industri pertahanan) dengan struktur komando dan kebutuhan interoperabilitas lintas matra yang tinggi. \\
+\hline
+Keterkaitan strategi & Bersifat generik dan tidak secara eksplisit menautkan arsitektur dengan doktrin serta strategi pertahanan. & Harus selaras dengan doktrin pertahanan nasional, konsep \textit{smart defence}, dan operasi multi-domain (\textit{multi-domain operation}). \\
+\hline
+\end{longtable}
 
+Dari keempat aspek tersebut, keterbatasan yang paling fundamental adalah ketiadaan domain yang secara khusus menangani aspek komando, kendali, dan kesadaran situasional yang menjadi inti operasional pertahanan.
+Dalam pertahanan modern, kapabilitas ini dikenal sebagai C5ISR (\textit{Command, Control, Communication, Computer, Cyber, Intelligence, Surveillance, and Reconnaissance}).
+Domain C5ISR memiliki sistem, aliran data, dan kebutuhan teknologi tersendiri yang tidak dapat sepenuhnya diakomodasi oleh keempat domain standar TOGAF.
+Kelemahan inilah yang menjadi dasar utama perlunya penyesuaian kerangka TOGAF agar relevan dengan kebutuhan pertahanan Indonesia.
 
+\subsection{Konsep TOGAF Pertahanan Indonesia}
+Konsep TOGAF Pertahanan Indonesia dirancang dengan tetap mempertahankan struktur dan kekuatan metodologis TOGAF ADM standar, sekaligus menutup keterbatasannya pada konteks pertahanan.
+Prinsip dasar penyesuaian ini adalah melakukan adaptasi seperlunya (\textit{minimal necessary modification}) agar kerangka tetap selaras dengan standar TOGAF tetapi mampu mengakomodasi kebutuhan sektor pertahanan.
 
+\begin{figure}[h]
+\caption{Perbandingan TOGAF ADM Standar dan TOGAF Pertahanan Indonesia}
+\label{fig:perbandingan-togaf}
+% TODO: ganti placeholder dengan gambar asli, mis. \includegraphics[width=0.9\textwidth]{images/Perbandingan_TOGAF.png}
+\gambarplaceholder{Perbandingan TOGAF ADM Standar dan TOGAF Pertahanan Indonesia}
+\end{figure}
 
+Penyesuaian utama dalam TOGAF Pertahanan Indonesia adalah penambahan satu fase baru, yaitu \textbf{Fase E: \textit{C5ISR Architecture}}, yang disisipkan setelah Fase D (\textit{Technology Architecture}) dan sebelum fase \textit{Opportunities \& Solutions}.
+Penambahan ini menggeser penomoran fase-fase berikutnya, sehingga \textit{Opportunities \& Solutions} menjadi Fase F, \textit{Migration Planning} menjadi Fase G, \textit{Implementation Governance} menjadi Fase H, dan \textit{Architecture Change Management} menjadi Fase I.
+Dengan demikian, TOGAF Pertahanan Indonesia terdiri atas sepuluh fase dengan \textit{Requirements Management} tetap berada di pusat siklus.
+Perbandingan antara TOGAF ADM standar dan TOGAF Pertahanan Indonesia ditunjukkan pada Gambar \ref{fig:perbandingan-togaf}.
 
+Pemilihan \textit{C5ISR Architecture} sebagai sebuah fase tersendiri didasarkan pada pertimbangan bahwa \textit{C5ISR Architecture} merupakan domain arsitektur yang sesungguhnya, karena memiliki komponen sistem, data, dan teknologi yang spesifik.
+Penempatan \textit{C5ISR Architecture} setelah \textit{Technology Architecture} karena arsitektur C5ISR dibangun di atas fondasi data, aplikasi, dan teknologi yang telah dirancang pada fase-fase sebelumnya.
 
+\subsection{Prinsip Arsitektur Pertahanan Indonesia}
+Prinsip arsitektur (\textit{architecture principles}) merupakan kaidah dan pedoman fundamental yang mengarahkan seluruh pengambilan keputusan dalam proses perancangan dan implementasi arsitektur.
+Prinsip-prinsip ini dirumuskan pada \textit{Preliminary Phase} dan menjadi acuan yang konsisten di seluruh fase ADM.
+Dalam penelitian ini, prinsip arsitektur Pertahanan Indonesia diturunkan dari tiga sumber utama, yaitu kebutuhan \textit{smart defence}, permasalahan transformasi digital yang teridentifikasi pada kondisi eksisting, serta amanat regulasi nasional dan praktik terbaik internasional.
 
+Berdasarkan ketiga sumber tersebut, dirumuskan sembilan prinsip arsitektur Pertahanan Indonesia sebagaimana disajikan pada Tabel \ref{tab:prinsip-arsitektur}.
 
+\begin{longtable}{|c|p{3.4cm}|p{8cm}|}
+\caption{Prinsip Arsitektur Pertahanan Indonesia}
+\label{tab:prinsip-arsitektur} \\
+\hline
+\textbf{No.} & \textbf{Prinsip} & \textbf{Deskripsi} \\
+\hline
+\endfirsthead
+\hline
+\textbf{No.} & \textbf{Prinsip} & \textbf{Deskripsi} \\
+\hline
+\endhead
+1 & \textit{Interoperabilitas} & Seluruh sistem Kemhan dan ketiga angkatan harus dapat saling terintegrasi dan bertukar data secara \textit{real-time}. \\
+\hline
+2 & \textit{Security by Design} & Keamanan siber menjadi bagian utama arsitektur sejak tahap perencanaan, bukan sebagai tambahan di akhir. \\
+\hline
+3 & \textit{Data as Strategic Asset} & Data pertahanan diperlakukan sebagai aset strategis nasional untuk mendukung pengambilan keputusan. \\
+\hline
+4 & \textit{Scalability \& Flexibility} & Arsitektur harus mampu berkembang mengikuti dinamika ancaman dan kemajuan teknologi di masa depan. \\
+\hline
+5 & \textit{Integrated Command \& Control} & Mendukung sistem komando dan pengendalian terintegrasi berbasis C5ISR. \\
+\hline
+6 & \textit{Availability \& Reliability} & Sistem pertahanan digital harus memiliki ketersediaan tinggi dan tahan terhadap gangguan. \\
+\hline
+7 & \textit{Governance \& Compliance} & Seluruh layanan digital harus sesuai dengan regulasi pertahanan, SPBE, dan ketentuan keamanan nasional. \\
+\hline
+8 & \textit{Smart Defence Oriented} & Transformasi digital harus mendukung konsep \textit{smart defence} dan operasi multi-domain. \\
+\hline
+9 & \textit{User-Centric Service} & Sistem dibangun untuk meningkatkan efektivitas personel dan kualitas layanan organisasi. \\
+\hline
+\end{longtable}
 
+\subsection{Framework TOGAF Pertahanan Indonesia}
+\textit{Framework} TOGAF Pertahanan Indonesia merupakan hasil penyesuaian (kustomisasi) TOGAF ADM yang disesuaikan dengan kebutuhan transformasi digital sektor pertahanan.
+\textit{Framework} ini mempertahankan struktur utama TOGAF ADM dengan menambahkan fase \textit{C5ISR Architecture} untuk mengakomodasi kebutuhan komando, kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian yang menjadi karakteristik utama pertahanan modern.
+
+\textit{Framework} TOGAF Pertahanan Indonesia terdiri atas sepuluh fase utama, yaitu \textit{Preliminary, Architecture Vision, Business Architecture, Information Systems Architecture, Technology Architecture, C5ISR Architecture, Opportunities \& Solutions, Migration Planning, Implementation Governance,} dan \textit{Architecture Change Management}.
+
+\subsubsection{Fase Preliminary}
+Fase \textit{Preliminary} merupakan fase persiapan yang menetapkan fondasi bagi keseluruhan pengembangan arsitektur.
+Pada fase ini ditetapkan ruang lingkup transformasi digital pertahanan, prinsip-prinsip arsitektur, struktur tata kelola arsitektur, serta penilaian kesiapan organisasi.
+Fase ini juga memastikan keterkaitan arsitektur dengan kerangka regulasi nasional dan sektor pertahanan, sehingga arsitektur yang dihasilkan selaras dengan kebijakan yang berlaku.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item \textit{TOGAF reference material}.
+  \item Strategi dan doktrin pertahanan nasional.
+  \item Rencana strategis transformasi digital.
+  \item Standar industri pertahanan.
+  \item Informasi pemangku kepentingan dan struktur organisasi.
+  \item \textit{Governance and legal framework}.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Menentukan ruang lingkup transformasi digital pertahanan.
+  \item Mengidentifikasi dan menetapkan prinsip-prinsip arsitektur.
+  \item Mengidentifikasi keterkaitan arsitektur dengan regulasi nasional dan sektor pertahanan.
+  \item Mendefinisikan dan membentuk tim organisasi EA.
+  \item Mendefinisikan \textit{smart defense} dan prinsip interoperabilitas.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Dokumen ruang lingkup dan keterkaitan regulasi.
+  \item Struktur organisasi.
+  \item Prinsip arsitektur pertahanan.
+  \item Kerangka tata kelola arsitektur (\textit{architecture governance framework}).
+  \item Model organisasi untuk arsitektur \textit{enterprise} (\textit{organizational model}).
+\end{itemize}
+
+\subsubsection{Fase Architecture Vision}
+Pada fase \textit{Architecture Vision} dilakukan perumusan visi, misi, dan tujuan strategis arsitektur transformasi digital pertahanan, serta mengidentifikasi pemangku kepentingan utama.
+Fase ini memberikan gambaran tingkat tinggi mengenai kondisi target (\textit{to-be}) yang ingin dicapai dan menjadi acuan arah bagi seluruh fase berikutnya.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item \textit{Architecture reference materials}.
+  \item Prinsip arsitektur pertahanan.
+  \item \textit{Governance and legal framework}.
+  \item Hasil analisis kondisi eksisting regulasi nasional.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Menyusun visi dan misi arsitektur pertahanan digital.
+  \item Mengidentifikasi pemangku kepentingan utama.
+  \item Merumuskan tujuan strategis.
+  \item Menyusun \textit{statement of architecture work} sebagai dasar pelaksanaan.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Dokumen \textit{Architecture Vision} (visi \& misi pertahanan digital).
+  \item Peta pemangku kepentingan (\textit{stakeholder map}).
+  \item Tujuan strategis dan \textit{statement of architecture work}.
+\end{itemize}
+
+\subsubsection{Fase Business Architecture (Organisasi Architecture)}
+Pada fase \textit{Business Architecture} dilakukan perancangan model proses bisnis, kapabilitas, dan organisasi pertahanan yang efektif untuk mendukung komando dan kendali, integrasi data, serta kolaborasi lintas satuan.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item Visi dan misi dari fase \textit{Architecture Vision}.
+  \item Struktur organisasi dan proses bisnis eksisting.
+  \item Strategi pertahanan dan transformasi digital.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Memodelkan proses bisnis inti dan proses bisnis pendukung pertahanan.
+  \item Menyusun peta kapabilitas (\textit{business capability map}) dan \textit{value stream} pertahanan.
+  \item Menyusun target bisnis arsitektur.
+  \item Melakukan analisis kesenjangan (\textit{as-is} vs \textit{to-be}).
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item \textit{Business capability map}.
+  \item \textit{Value stream}.
+  \item Bisnis arsitektur target.
+  \item Tata kelola dan komando.
+  \item Model operasi \& interoperabilitas.
+\end{itemize}
+
+\subsubsection{Fase Information Systems Architecture}
+Pada fase \textit{Information Systems Architecture} dilakukan penentuan arsitektur data dan aplikasi yang mendukung proses bisnis pertahanan.
+Fase ini terdiri atas dua sub-domain, yaitu arsitektur data (\textit{data architecture}) yang memodelkan entitas dan klasifikasi data pertahanan, serta arsitektur aplikasi (\textit{application architecture}) yang merancang portofolio aplikasi dan integrasinya.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item \textit{Architecture references material} (TOGAF \textit{library}, DoDAF, MODAF).
+  \item Regulasi nasional dan sektor pertahanan tentang data.
+  \item \textit{Cybersecurity and data protection standards}.
+  \item \textit{Interoperability and integration standards}.
+  \item Kebutuhan data dan layanan digital pertahanan.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Analisis eksisting data dan aplikasi pertahanan.
+  \item Memodelkan entitas data utama dan hubungan antar-sistem.
+  \item Menyusun klasifikasi dan tata kelola data pertahanan.
+  \item Merancang aplikasi pendukung operasi pertahanan dan portofolio aplikasi.
+  \item Merancang mekanisme integrasi dan pertukaran data lintas matra (\textit{data exchange}).
+  \item Melakukan analisis kesenjangan (\textit{as-is} vs \textit{to-be}).
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Model arsitektur data dan klasifikasi data pertahanan.
+  \item Portofolio aplikasi.
+  \item Arsitektur data terintegrasi dan mudah untuk pertukaran data.
+  \item \textit{Data security and access control}.
+\end{itemize}
+
+\subsubsection{Fase Technology Architecture}
+Pada fase \textit{Technology Architecture} dilakukan penyusunan arsitektur teknologi yang mencakup infrastruktur, platform, dan keamanan siber sebagai fondasi ekosistem digital pertahanan.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item Arsitektur data dan aplikasi dari fase \textit{Information Systems Architecture}.
+  \item \textit{Technology principles and standard requirement specification}.
+  \item Kebutuhan keamanan siber.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Analisis eksisting teknologi pertahanan.
+  \item Mendesain arsitektur target (jaringan, \textit{server}, \textit{cloud}, \textit{edge}, dan keamanan siber).
+  \item Menetapkan standar teknologi dan protokol keamanan.
+  \item Merancang fondasi keamanan siber terpadu lintas lapisan.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Model arsitektur teknologi pertahanan.
+  \item Standar teknologi dan protokol keamanan.
+\end{itemize}
+
+\subsubsection{Fase C5ISR Architecture}
+Fase \textit{C5ISR Architecture} merupakan fase khusus yang membedakan TOGAF Pertahanan Indonesia dari TOGAF standar.
+Fase ini merancang arsitektur kapabilitas C5ISR (\textit{Command, Control, Communication, Computer, Cyber, Intelligence, Surveillance, and Reconnaissance}), yaitu inti operasional pertahanan yang mengintegrasikan komando, kendali, dan kesadaran situasional.
+Fase ini dibangun di atas fondasi data, aplikasi, dan teknologi yang telah dirancang pada fase-fase sebelumnya.
+
+Arsitektur C5ISR dirancang dengan pendekatan \textit{network centric warfare} yang menghubungkan unsur sensor (\textit{surveillance} dan \textit{reconnaissance}), unsur pemroses dan intelijen, unsur pengambil keputusan (\textit{command \& control}), serta unsur penindak dalam satu jaringan informasi terpadu.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item Model arsitektur data, aplikasi, dan teknologi dari fase sebelumnya.
+  \item Kebutuhan \textit{smart defense}.
+  \item \textit{Network Centric Warfare} (NCW).
+  \item Operasi multi-domain.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Memetakan kapabilitas C5ISR dan keterkaitannya dengan proses pertahanan.
+  \item Merancang integrasi sensor, pengambil keputusan, dan unsur penindak dalam satu jaringan.
+  \item Merancang arsitektur komando dan kendali terpadu.
+  \item Mengintegrasikan pertahanan siber dan operasi lintas domain.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Model arsitektur C5ISR pertahanan.
+  \item Rancangan jaringan \textit{sensor to effector}.
+  \item Kerangka integrasi multi-domain dan pertahanan siber.
+\end{itemize}
+
+\subsubsection{Fase Opportunities \& Solutions}
+Pada fase \textit{Opportunities \& Solutions} dilakukan penggabungan seluruh kesenjangan (\textit{gap}) yang teridentifikasi dari fase arsitektur bisnis, data, aplikasi, teknologi, dan C5ISR, kemudian menerjemahkannya menjadi rangkaian inisiatif dan solusi.
+Fase ini juga mendefinisikan arsitektur transisi (\textit{transition architecture}) sebagai tahapan antara dari kondisi \textit{as-is} menuju \textit{to-be}.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item Hasil analisis kesenjangan dari seluruh fase arsitektur.
+  \item Prinsip arsitektur dan prioritas strategi organisasi.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Penggabungan dan pengelompokan kesenjangan antar domain.
+  \item Melakukan analisis pekerjaan yang seragam (\textit{work packages}).
+  \item Menyusun arsitektur transisi dan strategi implementasi.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Penggabungan kesenjangan dan daftar inisiatif/proyek.
+  \item Arsitektur transisi.
+  \item Strategi implementasi dan migrasi.
+\end{itemize}
+
+\subsubsection{Fase Migration Planning}
+Pada fase \textit{Migration Planning} dilakukan penyusunan rencana migrasi dan peta jalan (\textit{roadmap}) implementasi transformasi digital secara bertahap.
+Inisiatif yang telah diidentifikasi diprioritaskan berdasarkan nilai manfaat, ketergantungan antar inisiatif, dan tingkat kesiapan, kemudian dijadwalkan dalam horizon jangka pendek, menengah, dan panjang.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item Daftar inisiatif dan arsitektur transisi dari fase \textit{Opportunities \& Solutions}.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Melakukan analisis biaya, manfaat, dan penilaian risiko.
+  \item Memprioritaskan inisiatif berdasarkan manfaat dan ketergantungan.
+  \item Menyusun \textit{roadmap} implementasi bertahap.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Rencana implementasi dan migrasi.
+  \item \textit{Roadmap} jangka pendek, menengah, dan panjang.
+\end{itemize}
+
+\subsubsection{Fase Implementation Governance}
+Fase \textit{Implementation Governance} dilakukan untuk memastikan bahwa implementasi inisiatif berjalan sesuai dengan arsitektur yang telah dirancang dan patuh terhadap regulasi nasional.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item Rencana migrasi dan \textit{roadmap} implementasi dari fase \textit{Migration Planning}.
+  \item Prinsip arsitektur dan ketentuan regulasi.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Menetapkan kontrak arsitektur dengan pelaksana implementasi.
+  \item Melakukan tinjauan kepatuhan arsitektur terhadap regulasi.
+  \item Mengawasi pelaksanaan proyek implementasi.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Kontrak arsitektur.
+  \item Laporan penilaian kepatuhan dan tata kelola implementasi.
+\end{itemize}
+
+\subsubsection{Fase Architecture Change Management}
+Fase \textit{Architecture Change Management} bertujuan untuk mengelola perubahan arsitektur secara terkendali sebagai respons terhadap dinamika sektor pertahanan, perkembangan teknologi, dan perubahan kebijakan.
+Fase ini memastikan arsitektur pertahanan tetap relevan dan adaptif melalui pemantauan berkelanjutan serta penilaian dampak perubahan, sehingga siklus \textit{Architecture Development Method} dapat berulang secara berkesinambungan.
+
+\textbf{\textit{Input}:}
+\begin{itemize}
+  \item Hasil implementasi dan umpan balik (\textit{feedback}) operasional.
+  \item Perubahan lingkungan sektor pertahanan, teknologi, dan regulasi.
+\end{itemize}
+\textbf{\textit{Step}:}
+\begin{itemize}
+  \item Memantau perubahan lingkungan dan kinerja arsitektur.
+  \item Menilai dampak perubahan terhadap arsitektur.
+  \item Mengelola permintaan perubahan (\textit{change request}) secara terkendali.
+\end{itemize}
+\textbf{\textit{Output}:}
+\begin{itemize}
+  \item Permintaan perubahan arsitektur (\textit{architecture change request}).
+  \item Arsitektur terbarukan dan proses manajemen perubahan.
+\end{itemize}

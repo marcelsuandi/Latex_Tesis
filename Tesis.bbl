@@ -368,6 +368,40 @@
       \endverb
       \keyw{action research,complex socio-technical,digital transformation,ict governance methods,is management}
     \endentry
+    \entry{NATO2012}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bffcc931f95bfaa3bc6249b16fd85ee7}{%
+           family={{NATO}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \strng{fullhash}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \strng{fullhashraw}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \strng{bibnamehash}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \strng{authorbibnamehash}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \strng{authornamehash}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \strng{authorfullhash}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \strng{authorfullhashraw}{bffcc931f95bfaa3bc6249b16fd85ee7}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{NATO Official text}
+      \field{title}{{Chicago Summit Declaration}}
+      \field{urlday}{3}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2012/05/20/chicago-summit-declaration
+      \endverb
+      \verb{url}
+      \verb https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2012/05/20/chicago-summit-declaration
+      \endverb
+    \endentry
     \entry{scribd_network_centric_warfare}{article}{}{}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
@@ -593,6 +627,35 @@
       \verb{url}
       \verb https://www.opengroup.org/togaf
       \endverb
+    \endentry
+    \entry{USArmyMDO2018}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80af90fe7f30e2767faed4faf6e2d3bf}{%
+           family={{U.S. Army}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {U.S. Army Training}%
+        {Doctrine Command (TRADOC)}%
+      }
+      \strng{namehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{fullhash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{fullhashraw}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{bibnamehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authorbibnamehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authornamehash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authorfullhash}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \strng{authorfullhashraw}{80af90fe7f30e2767faed4faf6e2d3bf}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{525-3-1}
+      \field{title}{{The U.S. Army in Multi-Domain Operations 2028}}
+      \field{type}{TRADOC Pamphlet}
+      \field{year}{2018}
     \endentry
     \entry{U.S.DepartmentofDefense2019}{article}{}{}
       \name{author}{1}{}{%

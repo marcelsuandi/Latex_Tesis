@@ -329,6 +329,13 @@
 
 
 
+% --- Placeholder gambar (untuk gambar yang belum tersedia) ---
+% Ganti pemanggilan \gambarplaceholder{...} dengan \includegraphics{...}
+% setelah file gambar yang sesuai ditambahkan ke folder images/.
+\newcommand{\gambarplaceholder}[1]{%
+  \fbox{\parbox[c][5cm][c]{0.8\textwidth}{\centering\itshape [Placeholder gambar]\\ #1}}%
+}
+
 % ==========================================
 % AWAL DOKUMEN
 % ==========================================
@@ -399,7 +406,7 @@
 
 %\input{Bab IV - Implementasi.tex}
 
-% \input{Bab VI - Evaluasi.tex}
+\input{Bab VI - Evaluasi.tex}
 
 % \input{Bab VII - Penutup.tex}
 
