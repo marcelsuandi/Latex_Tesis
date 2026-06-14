@@ -307,7 +307,39 @@ Secara keseluruhan, JADC2 menegaskan bahwa keberhasilan operasi militer modern s
   Pilar ini memastikan bahwa pertahanan cerdas Kemhan bersifat adaptif, berkelanjutan, dan tidak bergantung sepenuhnya pada teknologi luar negeri.
 \end{enumerate}
 
-\section{Framework TOGAF}
+\section{Framework \textit{Enterprise Architecture}}
+Transformasi digital pada sektor pertahanan memerlukan kerangka \textit{Enterprise Architecture} (EA) yang mampu mengintegrasikan aspek organisasi, proses bisnis, data, aplikasi, teknologi, keamanan siber, dan interoperabilitas lintas domain.
+Berbagai \textit{framework} EA telah dikembangkan dan diterapkan pada organisasi pemerintahan maupun pertahanan, di antaranya TOGAF, DoDAF, MODAF dan NAF.
+Masing-masing \textit{framework} memiliki karakteristik, keunggulan, dan keterbatasan yang berbeda.
+Oleh karena itu, dilakukan analisis untuk menentukan \textit{framework} yang paling sesuai sebagai dasar pengembangan arsitektur transformasi digital pada Kementerian Pertahanan Republik Indonesia.
+
+\subsection{DoDAF}
+\textit{Department of Defense Architecture Framework} (DoDAF) dikembangkan oleh Departemen Pertahanan Amerika Serikat untuk mendukung pengambilan keputusan melalui berbagai informasi.
+Kerangka ini berevolusi dari \textit{C4ISR Architecture Framework} versi 1.0 yang dirilis pada tahun 1996 \autocite{C4ISRAWG1998}, melewati DoDAF versi 1.0 (2004) dan 1.5 (2007) \autocite{DoDAF2007v15}, hingga DoDAF versi 2.0 \autocite{DoDAF2010v20} yang disetujui pada Mei 2009 dan versi 2.02 \autocite{DoDAF2011v202} yang menjadi iterasi terkini hingga saat ini.
+Pergeseran paling fundamental pada versi 2.0 adalah perubahan dari pendekatan berorientasi produk menjadi pendekatan yang bersifat \textit{data-centric} alih-alih berpusat pada produk atau layanan, melalui penggunaan \textit{DoDAF Meta-model} (DM2) sebagai dasar pengembangan arsitektur.
+
+Secara struktural, DoDAF 2.02 memuat delapan \textit{viewpoint} dan 52 model, yang mencakup \textit{All Viewpoint} (AV), \textit{Capability Viewpoint} (CV), \textit{Data and Information Viewpoint} (DIV), \textit{Operational Viewpoint} (OV), \textit{Project Viewpoint} (PV), \textit{Services Viewpoint} (SvcV), \textit{Standards Viewpoint} (StdV), dan \textit{Systems Viewpoint} (SV).
+Kemampuan utama DoDAF yaitu mengorganisasi arsitektur \textit{systems-of-systems} yang kompleks dan terdistribusi, sebagaimana dibutuhkan dalam operasi berbasis jaringan (\textit{Network Centric Operations}).
+Meskipun demikian, DoDAF pada dasarnya merupakan kerangka \textit{deskripsi} arsitektur yang menekankan apa yang harus didokumentasikan, dan tidak menyediakan metodologi pengembangan bertahap (\textit{step-by-step}).
+
+\subsection{NAF}
+\textit{NATO Architecture Framework} (NAF) merupakan kerangka arsitektur yang dikembangkan oleh Pakta Pertahanan Atlantik Utara (NATO) untuk meningkatkan interoperabilitas antar negara anggota.
+\textit{Framework} ini sangat kuat dalam mendukung operasi gabungan dan integrasi sistem pertahanan lintas organisasi, namun kompleksitas implementasinya relatif tinggi dan belum sepenuhnya sesuai dengan kebutuhan tata kelola pemerintahan Indonesia.
+
+Versi terkini, NAF versi 4.1 (NAFv4) \autocite{NAFv4}, diterbitkan oleh \textit{Architecture Capability Team} (ACaT) di bawah \textit{NATO Consultation, Command and Control Board} (C3B).
+NAFv4 disusun atas beberapa komponen utama, yaitu metodologi pengembangan arsitektur, \textit{viewpoint}, serta penerapan \textit{meta-model} komersial yang sesuai dengan kebijakan NATO.
+Karakteristik khas NAFv4 adalah pengorganisasian \textit{viewpoint} dalam bentuk struktur ``grid'' dua dimensi yang merepresentasikan berbagai ``isu yang menjadi perhatian'' (\textit{issues of concern}) pada baris dan ``aspek yang menjadi perhatian'' (\textit{aspects of concern}) pada kolom.
+NAF dirancang untuk selaras dengan referensi arsitektur yang diterbitkan oleh badan standar internasional seperti ISO dan IEEE, sehingga sangat menonjol pada aspek interoperabilitas multinasional.
+
+\subsection{MODAF}
+\textit{Ministry of Defence Architecture Framework} (MODAF) merupakan kerangka arsitektur \textit{enterprise} yang dikembangkan oleh Kementerian Pertahanan Inggris untuk mendukung perencanaan pertahanan dan manajemen perubahan \autocite{Weilkiens2022}.
+MODAF merupakan adaptasi DoDAF yang masih berorientasi pada kebutuhan organisasi pertahanan Inggris sehingga memerlukan penyesuaian signifikan untuk diterapkan pada konteks Indonesia.
+
+MODAF menambahkan dua \textit{viewpoint} baru, yaitu \textit{Strategic Viewpoint} dan \textit{Acquisition Viewpoint}.
+Secara keseluruhan, MODAF mendefinisikan tujuh \textit{viewpoint}, yaitu \textit{All Views} (AV), \textit{Strategic Views} (StV), \textit{Operational Views} (OV), \textit{Service-Oriented Views} (SOV), \textit{Systems Views} (SV), \textit{Acquisition Views} (AcV), dan \textit{Technical Views} (TV).
+Penambahan \textit{viewpoint} strategis dan akuisisi ditujukan untuk menjawab kebutuhan \textit{Capability Managers} dan \textit{Acquisition Managers} dalam menganalisis evolusi kapabilitas serta keterkaitan antarprogram.
+
+\subsection{TOGAF}
 \autocite{togaf2020} merupakan salah satu kerangka kerja (enterprise architecture) yang paling banyak digunakan secara internasional untuk membantu organisasi dalam merancang, mengelola, dan mengimplementasikan arsitektur sistem secara terstruktur.
 TOGAF menyediakan metodologi yang komprehensif, standar, serta seperangkat prinsip yang memungkinkan organisasi mengelola perubahan secara efektif dan memastikan bahwa proses transformasi berjalan selaras dengan tujuan strategis organisasi.
 
@@ -341,6 +373,66 @@ Dengan struktur metodologis yang jelas, TOGAF memungkinkan Kemhan RI untuk meran
 \label{fig:TOGAF Framework}
   \includegraphics[width=0.7\textwidth]{images/TOGAF_Framework.png}
 \end{figure}
+
+\subsection{Perbandingan \textit{Framework}}
+Perbandingan keempat kerangka EA tersebut disajikan pada Tabel \ref{tab:perbandingan-framework}.
+
+{\footnotesize
+\begin{longtable}{|p{2.1cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+\caption{Perbandingan antar \textit{framework}} \label{tab:perbandingan-framework} \\
+\hline
+\textbf{Aspek} & \textbf{DoDAF} & \textbf{NAF} & \textbf{MODAF} & \textbf{TOGAF} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Aspek} & \textbf{DoDAF} & \textbf{NAF} & \textbf{MODAF} & \textbf{TOGAF} \\
+\hline
+\endhead
+
+Pengembang & Departemen Pertahanan AS (DoD) & NATO (\textit{Architecture Capability Team}, C3B) & Kementerian Pertahanan Inggris (UK MoD) & The Open Group \\
+\hline
+Versi \& Status & 2.02 (2010), aktif & v4 (2018), aktif & v1.2, ditarik (digantikan NAF v4) & 10th Edition (2022), aktif \& berkembang \\
+\hline
+Orientasi utama & Dokumentasi arsitektur \textit{systems-of-systems} \& C4ISR & Standardisasi \& interoperabilitas multinasional & Perencanaan kapabilitas \& akuisisi pertahanan & Keselarasan bisnis--TI lintas sektor \\
+\hline
+Tipe kerangka & \textit{Architecture description framework} & Deskripsi + metodologi (sejak v4) & \textit{Architecture description framework} & \textbf{Metodologi pengembangan} (proses) + \textit{content framework} \\
+\hline
+Komponen/ Struktur & 8 \textit{viewpoint}, 52 model, meta-model DM2 & \textit{Grid viewpoint} (\textit{issues} $\times$ \textit{aspects of concern}), meta-model komersial & 7 \textit{viewpoint} (AV, StV, OV, SOV, SV, AcV, TV) & Siklus ADM (Fase A--H), 4 domain arsitektur, \textit{Enterprise Continuum}, \textit{Architecture Repository} \\
+\hline
+Metode Pengembangan & Tidak preskriptif; berpusat pada data \& \textit{viewpoint} & \textit{Architecting stages} (tidak ketat sekuensial) & Tidak preskriptif; turunan DoDAF & \textbf{ADM iteratif \& preskriptif} dengan \textit{Requirements Management} di pusat \\
+\hline
+Cakupan Sektor & Spesifik militer (AS) & Militer (NATO) \& bisnis & Spesifik militer (Inggris) & Netral industri / lintas sektor \\
+\hline
+Penanganan keamanan & Akar C4ISR kuat; \textit{security markings} di PES & Fokus interoperabilitas lintas matra/negara & Kuat pada kapabilitas \& akuisisi & Tidak eksplisit; bersifat \textit{cross-cutting} (perlu adaptasi) \\
+\hline
+Fleksibilitas \& Kustomisasi & Terikat konvensi DoD & Selaras ISO/IEC/IEEE 42010; kompatibel mundur & Menambah StV \& AcV; kini \textit{legacy} & \textbf{Sangat tinggi} --- ADM dirancang untuk di-\textit{tailor} \\
+\hline
+Adopsi \& ketersediaan & Wajib bagi akuisisi sistem DoD & Standar NATO \& negara mitra & \textit{Legacy}, tidak lagi dipelihara & Adopsi global terluas; ekosistem \& sertifikasi matang; gratis non-komersial \\
+\hline
+\end{longtable}
+}
+
+Hasil perbandingan pada Tabel \ref{tab:perbandingan-framework} memperlihatkan adanya perbedaan mendasar dalam karakter keempat kerangka tersebut.
+DoDAF, NAF, dan MODAF pada dasarnya merupakan \textit{architecture description framework}, yaitu kerangka yang menekankan apa yang harus didokumentasikan melalui sekumpulan \textit{viewpoint} dan model baku.
+Ketiganya lahir dari akar yang sama, yaitu \textit{C4ISR Architecture Framework}, dan dirancang secara spesifik untuk konteks militer suatu negara atau aliansi.
+Sebaliknya, TOGAF merupakan \textit{development methodology} yang menekankan \textit{bagaimana} arsitektur dibangun secara bertahap melalui \textit{Architecture Development Method} (ADM), serta bersifat netral industri dan dapat diterapkan lintas sektor.
+Perbedaan inilah yang menjadi pertimbangan utama dalam memilih TOGAF sebagai dasar pengembangan kerangka pada penelitian ini.
+
+Keunggulan metodologis TOGAF terletak pada siklus ADM yang sistematis, iteratif, dan preskriptif.
+ADM memberikan panduan langkah demi langkah mulai dari \textit{Preliminary Phase}, perumusan visi, pengembangan arsitektur bisnis, data, aplikasi, dan teknologi, hingga perencanaan implementasi dan tata kelola perubahan, dengan \textit{Requirements Management} yang konsisten berada di pusat siklus.
+Dengan demikian, TOGAF tidak hanya menghasilkan dokumentasi arsitektur, tetapi juga mengarahkan proses transformasi secara menyeluruh---suatu kemampuan yang tidak dimiliki secara eksplisit oleh DoDAF dan MODAF yang bersifat deskriptif.
+Kemampuan ini sangat relevan dengan kebutuhan Kementerian Pertahanan RI yang tidak hanya memerlukan peta arsitektur, melainkan metode terstruktur untuk melaksanakan transformasi digital.
+
+Keunggulan kedua adalah fleksibilitas dan kemampuan kustomisasi.
+ADM secara eksplisit dirancang untuk di-\textit{tailor} sesuai karakteristik organisasi, sehingga membuka ruang adaptasi yang luas tanpa kehilangan kerangka metodologis intinya.
+Sifat ini menjadikan TOGAF sebagai fondasi yang ideal untuk dikembangkan menjadi \textit{TOGAF Pertahanan Indonesia}.
+Selain itu, TOGAF merupakan kerangka arsitektur \textit{enterprise} dengan adopsi terluas secara global serta tersedia secara terbuka untuk penggunaan non-komersial dan akademik.
+Karakter netral-sektor TOGAF juga memudahkan penyelarasan dengan kebijakan nasional seperti SPBE, Satu Data Indonesia, dan RPJPN 2025--2045, yang menuntut keselarasan tata kelola lintas instansi pemerintah, bukan hanya kebutuhan militer.
+
+Meskipun demikian, perbandingan ini juga menegaskan satu keterbatasan TOGAF dalam konteks pertahanan, yaitu tidak adanya domain yang secara khusus menangani kapabilitas operasional militer seperti C5ISR serta penanganan keamanan siber yang masih bersifat \textit{cross-cutting}.
+Justru pada titik inilah kekuatan DoDAF, NAF, dan MODAF menjadi relevan: ketiganya unggul dalam merepresentasikan domain komando, kendali, dan interoperabilitas yang berakar pada C4ISR/C5ISR.
+Oleh karena itu, strategi yang ditempuh dalam penelitian ini adalah menggunakan kekuatan metodologis ADM TOGAF sebagai kerangka utama dan menanamkan kebutuhan domain pertahanan yang menjadi keunggulan ketiga kerangka militer tersebut, khususnya melalui penambahan fase \textit{C5ISR Architecture}.
 
 
 

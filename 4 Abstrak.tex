@@ -3,7 +3,7 @@
 
 \begin{center}
 
-    \textbf{Implementasi Sistem Smart Scale Berbasis IoT dengan Arsitektur Desentralisasi untuk Optimalisasi Rantai Pasok Jeruk di Tingkat Lapak} \\
+    \textbf{Desain Arsitektur Transformasi Digital pada Kementerian Pertahanan} \\
     \vspace{0.4cm}
     oleh \\
     \vspace{0.4cm}
@@ -13,48 +13,26 @@
 
 
 \begin{spacing}{1.0}
-Proses manual dalam rantai pasok jeruk di tingkat lapak, yang mencakup sortir,
-timbang, dan catat, terbukti tidak efisien, memakan waktu, dan rentan terhadap
-kesalahan. Meskipun solusi berbasis Internet of Things (IoT) dapat mengatasi
-masalah ini, arsitektur terpusat konvensional berbasis cloud justru menimbulkan
-masalah baru berupa latensi tinggi yang menghambat alur kerja real-time.
-Penelitian ini bertujuan untuk merancang dan mengimplementasikan sebuah
-purwarupa sistem smart scale berbasis IoT dengan pendekatan desentralisasi (edge
-computing) untuk meminimalkan latensi dan meningkatkan efisiensi operasional.
-Metode yang digunakan adalah Model Purwarupa, yang diwujudkan dalam bentuk
-perangkat keras dengan arsitektur prosesor ganda (Raspberry Pi 5 dan ESP32) yang
-mampu mengintegrasikan fungsi timbang dan analisis kualitas citra secara
-simultan. Hasil evaluasi menunjukkan bahwa purwarupa dengan arsitektur edge
-computing yang diimplementasikan mampu memberikan respons 43,5\% lebih cepat
-(latensi rata-rata 18,05 detik) dibandingkan dengan simulasi arsitektur terpusat.
-Selain itu, sistem ini berhasil meningkatkan efisiensi waktu kerja secara
-keseluruhan sebesar 58,32\% jika dibandingkan dengan metode manual
-konvensional. Pengujian Penerimaan Pengguna (UAT) yang melibatkan 30
-partisipan juga menunjukkan penerimaan yang sangat positif, dengan skor rata-rata
-untuk kemudahan penggunaan (5,0/5,0), kejelasan antarmuka (4,87/5,0) dan
-persepsi kinerja (4,95/5,0). Kesimpulannya, implementasi sistem smart scale
-dengan arsitektur desentralisasi terbukti merupakan solusi yang valid dan efektif
-untuk menjawab permasalahan latensi dan inefisiensi di lapak. Sistem ini tidak
-hanya unggul secara teknis dalam hal performa, tetapi juga fungsional dan dapat
-diterima dengan baik oleh pengguna akhir, serta berpotensi besar untuk modernisasi
-rantai pasok agribisnis.
+Transformasi digital telah menjadi fondasi utama pertahanan modern yang
+mengutamakan informasi dan pengambilan keputusan berbasis data. Namun,
+implementasinya di Kementerian Pertahanan Republik Indonesia (Kemhan RI) masih
+terkendala fragmentasi sistem, data silo, lemahnya interoperabilitas lintas unit dan
+matra, serta kesenjangan kompetensi SDM digital, di tengah belum tersedianya
+kerangka arsitektur yang terpadu. Penelitian ini bertujuan merancang arsitektur
+transformasi digital Kemhan RI sebagai landasan menuju pertahanan cerdas
+(\textit{smart defence}). Penelitian menggunakan \textit{Design Science Research Methodology}
+(DSRM) yang dipadukan dengan TOGAF \textit{Architecture Development Method} (ADM).
+Hasil analisis kondisi eksisting menunjukkan bahwa TOGAF ADM standar belum
+mengakomodasi karakteristik pertahanan, khususnya aspek komando, kendali, dan
+kesadaran situasional. Sebagai solusi, dirancang kerangka TOGAF Pertahanan
+Indonesia yang menambahkan Fase C5ISR \textit{Architecture} sehingga terdiri atas sepuluh
+fase, dilengkapi sembilan prinsip arsitektur dan usulan pembentukan unit
+\textit{Digital Transformation Officer} (DTO). Artefak dievaluasi melalui
+\textit{Enterprise Architecture Scorecard}\texttrademark{} dan oleh para \textit{Expert Judgement}.
+Penelitian ini diharapkan menjadi pedoman strategis bagi Kemhan RI dalam
+mewujudkan ekosistem digital pertahanan yang terintegrasi, aman, adaptif, dan
+berkelanjutan.
 
-Kata kunci: Smart Scale, Internet of Things, Edge Computing, Rantai Pasok Jeruk.
+\vspace{0.4cm}
+\noindent\textbf{Kata kunci:} \textit{arsitektur transformasi digital, TOGAF ADM, DSRM, pertahanan cerdas, C5ISR.}
 \end{spacing}
-
-
-\begin{table}[htbp]
-    \centering
-    \begin{tabular}{|l|c|r|p{5cm}|}
-        \hline
-        Nama & NIM & Tanggal & Tanda Tangan \\
-        \hline
-        Marcel Suandi Tambing & 23524316 & \DTMlangsetup{showdayofmonth=false,showmonthname=true,showyear=true}\today & \\
-        \hline
-    \end{tabular}
-    \caption{Pernyataan Orisinalitas}
-    \label{tab:pernyataan_orisinalitas}
-\end{table}
-
-
-Tesis ini diambil dari \autocite{KemhanRI2014,U.S.DepartmentofDefense2019}, \textcite{togaf2020}
