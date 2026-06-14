@@ -1,16 +1,16 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Tesis.blg'
-[242] biber-MSWIN64:342> INFO - === 
-[295] Biber.pm:421> INFO - Reading 'Tesis.bcf'
-[505] Biber.pm:1002> INFO - Found 21 citekeys in bib section 0
-[519] Biber.pm:4487> INFO - Processing section 0
-[529] Biber.pm:4678> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
-[610] bibtex.pm:1713> INFO - LaTeX decoding ...
-[663] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
-[825] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
-[825] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[825] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[825] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
-[825] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
-[849] bbl.pm:676> INFO - Writing 'Tesis.bbl' with encoding 'UTF-8'
-[863] bbl.pm:779> INFO - Output to Tesis.bbl
+[89] biber-MSWIN64:342> INFO - === 
+[127] Biber.pm:421> INFO - Reading 'Tesis.bcf'
+[274] Biber.pm:1002> INFO - Found 21 citekeys in bib section 0
+[284] Biber.pm:4487> INFO - Processing section 0
+[293] Biber.pm:4678> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
+[362] bibtex.pm:1713> INFO - LaTeX decoding ...
+[404] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
+[529] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[530] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[530] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
+[530] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
+[530] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[548] bbl.pm:676> INFO - Writing 'Tesis.bbl' with encoding 'UTF-8'
+[559] bbl.pm:779> INFO - Output to Tesis.bbl

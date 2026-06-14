@@ -3,11 +3,13 @@
 \renewcommand {\cftchapfont }{\normalfont }
 \renewcommand {\cftchappagefont }{\normalfont }
 \contentsline {chapter}{LEMBAR PENGESAHAN}{iii}{chapter*.2}%
-\contentsline {chapter}{DAFTAR ISI}{v}{section*.3}%
-\contentsline {chapter}{DAFTAR GAMBAR}{vii}{section*.4}%
-\contentsline {chapter}{DAFTAR TABEL}{ix}{section*.5}%
-\contentsline {chapter}{DAFTAR SINGKATAN}{xi}{section*.5}%
-\contentsline {chapter}{DAFTAR SIMBOL}{xv}{table.0.1}%
+\contentsline {chapter}{PERNYATAAN ORISINALITAS}{v}{chapter*.3}%
+\contentsline {chapter}{PERNYATAAN PENGGUNAAN AI}{vii}{chapter*.4}%
+\contentsline {chapter}{DAFTAR ISI}{ix}{section*.6}%
+\contentsline {chapter}{DAFTAR GAMBAR}{xi}{section*.7}%
+\contentsline {chapter}{DAFTAR TABEL}{xiii}{section*.8}%
+\contentsline {chapter}{DAFTAR SINGKATAN}{xv}{section*.8}%
+\contentsline {chapter}{DAFTAR SIMBOL}{xix}{table.0.1}%
 \setlength {\cftbeforechapskip }{10pt}
 \renewcommand {\cftchapfont }{\bfseries }
 \renewcommand {\cftchappagefont }{\bfseries }

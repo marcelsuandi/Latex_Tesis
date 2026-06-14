@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  4 JUN 2026 14:31
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.3.3)  4 JUN 2026 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1061,7 +1061,7 @@ Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
 -english.tex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 51.
+(babel)             from babel-en.ini. Reported on input line 53.
 )
 \openout1 = `Tesis.aux'.
 
@@ -1273,10 +1273,121 @@ Package datetime2 Warning: Region `bahasai' has ignored
 
 ]) (2 Lembar Pengesahan.tex [2
 
-])
+]) (3 Pernyataan Orisinalitas.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
+
+
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+))
+(3a Pernyataan Penggunaan AI.tex [5] [6
+
+]
+Overfull \hbox (3.43965pt too wide) in paragraph at lines 7--7
+[]|\TU/TimesNewRoman(0)/b/n/12 No.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TimesNewRoman(0)/m/n/12 Pencarian informasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\TU/TimesNewRoman(0)/m/n/12 ChatGPT,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Penyusunan kode pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 19--19
+\TU/TimesNewRoman(0)/m/n/12 tGPT, GitHub
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\TU/TimesNewRoman(0)/m/n/12 Penyusunan formula
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/12 Claude, Cha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\TU/TimesNewRoman(0)/m/n/12 Penyusunan kesimpul-
+ []
+
+
+Overfull \hbox (13.72078pt too wide) in paragraph at lines 5--30
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+) [7]
 
 Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 
@@ -1312,83 +1423,62 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(6 Daftar Isi.tex [4
+(6 Daftar Isi.tex [8
 
 
-] (Tesis.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
-
-(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
-
-(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-(C:\Users\marce\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-[5]
-Overfull \hbox (0.58832pt too wide) detected at line 136
+] (Tesis.toc [9]
+Overfull \hbox (0.58832pt too wide) detected at line 138
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.1 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 137
+Overfull \hbox (0.58832pt too wide) detected at line 139
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.2 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 138
+Overfull \hbox (0.58832pt too wide) detected at line 140
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.3 
  []
 
 
-Overfull \hbox (2.23248pt too wide) in paragraph at lines 138--138
+Overfull \hbox (2.23248pt too wide) in paragraph at lines 140--140
  [][] [][][]\TU/TimesNewRoman(0)/m/n/12 Fase Business Architecture (Organisasi 
 Architectu- 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 139
+Overfull \hbox (0.58832pt too wide) detected at line 141
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.4 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 140
+Overfull \hbox (0.58832pt too wide) detected at line 142
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.5 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 141
+Overfull \hbox (0.58832pt too wide) detected at line 143
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.6 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 142
+Overfull \hbox (0.58832pt too wide) detected at line 144
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.7 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 143
+Overfull \hbox (0.58832pt too wide) detected at line 145
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.8 
  []
 
 
-Overfull \hbox (0.58832pt too wide) detected at line 144
+Overfull \hbox (0.58832pt too wide) detected at line 146
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.9 
  []
 
 
-Overfull \hbox (6.58832pt too wide) detected at line 145
+Overfull \hbox (6.58832pt too wide) detected at line 147
 \TU/TimesNewRoman(0)/m/n/12 III.2.4.10 
  []
 
@@ -1396,19 +1486,20 @@ Overfull \hbox (6.58832pt too wide) detected at line 145
 \tf@toc=\write5
 \openout5 = `Tesis.toc'.
 
-) (7 Daftar Gambar.tex [6] (Tesis.lof)
+) (7 Daftar Gambar.tex [10] (Tesis.lof)
 \tf@lof=\write6
 \openout6 = `Tesis.lof'.
 
-) (8 Daftar Tabel.tex [7
+) (8 Daftar Tabel.tex [11
 
-] [8
+] [12
 
-] (Tesis.lot)
+]
+(Tesis.lot)
 \tf@lot=\write7
 \openout7 = `Tesis.lot'.
 
-) (12 Daftar Singkatan.tex [9] [10
+) (12 Daftar Singkatan.tex [13] [14
 
 ]
 Overfull \hbox (32.96596pt too wide) in alignment at lines 15--91
@@ -1416,11 +1507,11 @@ Overfull \hbox (32.96596pt too wide) in alignment at lines 15--91
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [11]
+ignored: Infinite glue shrinkage found in box being split [15]
 ignored: Infinite glue shrinkage fo
-und in box being split [12]) (13 Daftar Simbol.tex [13] [14
+und in box being split [16]) (13 Daftar Simbol.tex [17] [18
 
-]) [15] [16
+]) [19] [20
 
 ] (Bab I - Pendahuluan.tex
 Bab I.
@@ -2899,18 +2990,18 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: F4DF9DE1DAA676BAC21095DBA888C3F4;14569.
+(rerunfilecheck)             Checksum: 0322A1DF5706E90F02F7169DAFF7A0C6;14903.
 Package logreq Info: Writing requests to 'Tesis.run.xml'.
 \openout1 = `Tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34617 strings out of 402983
- 672996 string characters out of 5448483
- 2086698 words of memory out of 5000000
- 62941 multiletter control sequences out of 15000+600000
+ 34633 strings out of 402983
+ 673510 string characters out of 5448483
+ 2087090 words of memory out of 5000000
+ 62951 multiletter control sequences out of 15000+600000
  632926 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,9n,95p,1819b,6874s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,11n,95p,1819b,6874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Tesis.pdf (76 pages).
+Output written on Tesis.pdf (80 pages).
